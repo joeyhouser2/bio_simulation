@@ -6,10 +6,12 @@ the layer the SAE expects. The SAE itself is applied separately (see ``sae.py``)
 
 from __future__ import annotations
 
+from pathlib import Path
+
 import torch
 from accelerate import init_empty_weights
 from huggingface_hub import HfApi, hf_hub_download, snapshot_download
-from huggingface_hub import load_torch_model
+from safetensors.torch import load_file
 
 from esm.models.esmc import ESMC
 from esm.sdk.api import ESMProtein, LogitsConfig
@@ -29,14 +31,17 @@ MODEL_REGISTRY = {
 
 
 def pick_device() -> torch.device:
-    """CUDA device with the most free memory (routes the 6B model to the 16 GB card)."""
+    """Largest-memory CUDA device (free as tiebreak).
+
+    Picks by *total* memory so the 6B model lands on the 16 GB 4060 Ti rather than the
+    12 GB 4070 (which drives the display) — the larger card is the dedicated compute GPU.
+    """
     if not torch.cuda.is_available():
         return torch.device("cpu")
-    free = []
-    for i in range(torch.cuda.device_count()):
-        f, _ = torch.cuda.mem_get_info(i)
-        free.append((f, i))
-    return torch.device(f"cuda:{max(free)[1]}")
+    def score(i: int) -> tuple[int, int]:
+        return (torch.cuda.get_device_properties(i).total_memory, torch.cuda.mem_get_info(i)[0])
+    best = max(range(torch.cuda.device_count()), key=score)
+    return torch.device(f"cuda:{best}")
 
 
 def load_esmc(model_name: str = "esmc_600m", device: torch.device | str | None = None) -> ESMC:
@@ -64,13 +69,21 @@ def load_esmc(model_name: str = "esmc_600m", device: torch.device | str | None =
                         weights_only=False)
         if hasattr(sd, "state_dict"):
             sd = sd.state_dict()
-        model.load_state_dict(sd, assign=True)
-    else:  # 6B: sharded safetensors with a top-level index
-        load_torch_model(model, snapshot_download(spec["repo"]))
-
-    model = model.to(device)
+    else:  # 6B: sharded safetensors -> merge shards; keys carry an "esmc." prefix
+        snap = Path(snapshot_download(spec["repo"]))
+        sd = {}
+        for shard in sorted(snap.glob("*.safetensors")):
+            sd.update(load_file(str(shard)))
+        sd = {k.removeprefix("esmc."): v for k, v in sd.items()}
+        # the transformers 6B names the output head "lm_head"; the SDK uses "sequence_head"
+        sd = {("sequence_head." + k.removeprefix("lm_head.")) if k.startswith("lm_head.")
+              else k: v for k, v in sd.items()}
+    # Cast to bf16 BEFORE moving to GPU (6B float32 is ~24 GB and won't fit any card);
+    # assign=True materializes the init_empty_weights() meta tensors in-place.
     if device.type != "cpu":
-        model = model.to(torch.bfloat16)
+        sd = {k: v.to(torch.bfloat16) for k, v in sd.items()}
+    model.load_state_dict(sd, assign=True)
+    model = model.to(device)
     return model.eval()
 
 
