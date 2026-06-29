@@ -43,9 +43,10 @@ clean negative on prediction is still publishable.**
   fails with "Could not reset index file". A local clone lives in `vendor/esm`
   (gitignored).
 - **Windows gotcha (runtime):** importing `pyarrow` *after* `torch` causes a native
-  access violation. Any module/script that needs both must import pyarrow first
-  (`eval/calibration.py` does this at module top; ProteinGym assays are cached to CSV
-  so later runs skip pyarrow entirely).
+  access violation, and the esm package imports pandas (→ pyarrow) lazily inside
+  `esm.tokenization`. Fixed systemically: `sae_cancer/__init__.py` imports pyarrow
+  first, so every `import sae_cancer.*` entry point loads it before torch. (Feature
+  caches also use CSV/npz, not parquet, to avoid pyarrow at read time.)
 
 ## Engineering conventions (brief §10)
 
