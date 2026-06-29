@@ -53,14 +53,16 @@ features (k=64/residue), with reconstruction FVU ≈ 0.16 at the configured laye
 
 - **Phase 0 complete** — hardware path resolved, repo scaffolded, CUDA verified on
   both GPUs, local SAE extraction verified bit-for-bit against the official impl.
-- **Phase 1 (core) complete** — curated 1,275 labeled variants for the 5-gene panel
+- **Phase 1 complete** — curated 1,275 labeled variants for the 5-gene panel
   (ClinVar pathogenic/benign + Cancer Hotspots drivers) into
   `data/variants/variants.csv`; masked-marginal likelihood baseline gives
-  pathogenic-vs-benign **AUROC 0.977** overall (TP53, balanced labels: 0.960).
-  Remaining Phase 1 item: ProteinGym calibration check.
+  pathogenic-vs-benign **AUROC 0.977** overall (TP53, balanced labels: 0.960);
+  ProteinGym calibration **mean |Spearman| 0.446** over 5 panel-gene assays
+  (in the ESM-family zero-shot range — baseline confirmed sane).
 - **Next:** Phase 2 — WT/mutant SAE disruption features (H1).
 
 ```powershell
-.venv\Scripts\python.exe scripts\phase1_curate.py     # build the variant table
-.venv\Scripts\python.exe scripts\phase1_baseline.py   # likelihood baseline + metrics
+.venv\Scripts\python.exe scripts\phase1_curate.py        # build the variant table
+.venv\Scripts\python.exe scripts\phase1_baseline.py      # likelihood baseline + metrics
+.venv\Scripts\python.exe scripts\phase1_calibration.py   # ProteinGym calibration
 ```

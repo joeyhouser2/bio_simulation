@@ -1,0 +1,32 @@
+{
+  "model": "esmc_600m",
+  "metric": "spearman_llr_vs_dms",
+  "per_assay": {
+    "P53_HUMAN_Giacomelli_2018_WT_Nutlin": {
+      "n": 7467,
+      "seq_len": 393,
+      "spearman": 0.47819137457179134
+    },
+    "P53_HUMAN_Kotler_2018": {
+      "n": 1048,
+      "seq_len": 393,
+      "spearman": 0.6939075570696388
+    },
+    "PTEN_HUMAN_Matreyek_2021": {
+      "n": 5083,
+      "seq_len": 403,
+      "spearman": 0.4560179954398319
+    },
+    "PTEN_HUMAN_Mighell_2018": {
+      "n": 7260,
+      "seq_len": 403,
+      "spearman": 0.5439728221080342
+    },
+    "RASK_HUMAN_Weng_2022_abundance": {
+      "n": 3066,
+      "seq_len": 188,
+      "spearman": 0.05563692614120669
+    }
+  },
+  "mean_abs_spearman": 0.4455453350661006
+}

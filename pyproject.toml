@@ -8,6 +8,7 @@ dependencies = [
     # --- core scientific stack ---
     "numpy",
     "pandas",
+    "pyarrow",
     "scipy",
     "scikit-learn",
     "tqdm",

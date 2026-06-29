@@ -38,9 +38,14 @@ clean negative on prediction is still publishable.**
 - **SAE codebook:** `biohub/ESMC-6B-sae-layer60-k64-codebook16384` (16,384 features,
   Top-K=64, GPT-5 annotated) — the variant named in the brief; 600M analogue is
   `biohub/ESMC-600M-sae-layer27-k64-codebook16384`.
-- **Windows gotcha:** the esm dep pulls a custom `transformers` fork (~5,200 files);
-  installing needs `git config --global core.longpaths true` or git fails with
-  "Could not reset index file". A local clone lives in `vendor/esm` (gitignored).
+- **Windows gotcha (install):** the esm dep pulls a custom `transformers` fork
+  (~5,200 files); installing needs `git config --global core.longpaths true` or git
+  fails with "Could not reset index file". A local clone lives in `vendor/esm`
+  (gitignored).
+- **Windows gotcha (runtime):** importing `pyarrow` *after* `torch` causes a native
+  access violation. Any module/script that needs both must import pyarrow first
+  (`eval/calibration.py` does this at module top; ProteinGym assays are cached to CSV
+  so later runs skip pyarrow entirely).
 
 ## Engineering conventions (brief §10)
 
