@@ -63,11 +63,11 @@ def main() -> None:
     for _, r in shap_top.head(args.top).iterrows():
         fid = int(r["feature_id"])
         d = desc_by_id.loc[fid] if fid in desc_by_id.index else None
-        cat = d["category"] if d is not None else "?"
-        summ = (d["summary"] if d is not None else "")[:88]
+        cat = str(d["category"]) if d is not None and pd.notna(d["category"]) else "?"
+        full = str(d["summary"]) if d is not None and pd.notna(d["summary"]) else ""
         rows.append({"feature_id": fid, "importance": r["mean_abs_shap"],
-                     "category": cat, "summary": d["summary"] if d is not None else ""})
-        print(f"  {fid:5d} [{r['mean_abs_shap']:.3f}] {cat:22s} {summ}")
+                     "category": cat, "summary": full})
+        print(f"  {fid:5d} [{r['mean_abs_shap']:.3f}] {cat:22s} {full[:88]}")
     pd.DataFrame(rows).to_csv(RESULTS / f"phase3_h2_top_features_{args.model}.csv", index=False)
 
     # --- B. Category enrichment of the predictive features ---------------------------

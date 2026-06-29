@@ -76,8 +76,18 @@ features (k=64/residue), with reconstruction FVU ≈ 0.16 at the configured laye
   prediction (the brief's anticipated clean negative — interpretability is the
   contribution). SHAP ranks the codebook features driving calls (feature 13421
   dominant) for the H2 GPT-5-description cross-reference.
-- **Next:** H2 interpretability on the **6B** SAE (where GPT-5 feature descriptions
-  live) + Phase 4 scale-up to ~50-100 genes for a powered held-out-genes eval.
+- **6B run + H2 (preliminary)** — ESMC-6B loads on the 16 GB 4060 Ti (bf16, ~13 GB);
+  6B disruption H1 is stronger than 600M (gene-stratified pathogenic-vs-benign:
+  magnitude AUROC 0.71, n_features_changed 0.71). H2 cross-reference of SHAP-ranked
+  features to GPT-5 descriptions: the most predictive disruption features skew toward
+  *generic* structural/compositional/interaction features and are **depleted** for
+  crisp catalytic/ligand-binding categories (against the naive "drivers hit active
+  sites" story). Qualitatively, oncogene variants disrupt more Structural-motif
+  features while TSG variants disrupt more Domain/Disorder features — a directional
+  mechanism signal. The gene-held-out oncogene-vs-TSG classifier is unreliable at 5
+  genes (degenerate folds); a powered claim needs Phase 4 scale-up.
+- **Next:** Phase 4 — scale to ~50-100 genes for powered held-out-genes prediction
+  and H2 mechanism claims; optionally the 6B classifier comparison vs baselines.
 
 ```powershell
 .venv\Scripts\python.exe scripts\phase1_curate.py        # build the variant table

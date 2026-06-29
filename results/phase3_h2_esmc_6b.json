@@ -1,0 +1,162 @@
+{
+  "model": "esmc_6b",
+  "category_enrichment": {
+    "Other": {
+      "top_frac": 0.0541,
+      "background_frac": 0.0037,
+      "enrichment": 14.5748
+    },
+    "Compositional bias": {
+      "top_frac": 0.1351,
+      "background_frac": 0.0598,
+      "enrichment": 2.2608
+    },
+    "Interaction site": {
+      "top_frac": 0.1081,
+      "background_frac": 0.062,
+      "enrichment": 1.7437
+    },
+    "Sequence motif": {
+      "top_frac": 0.027,
+      "background_frac": 0.0166,
+      "enrichment": 1.6254
+    },
+    "Post-translational modification": {
+      "top_frac": 0.0541,
+      "background_frac": 0.0431,
+      "enrichment": 1.2528
+    },
+    "Disorder": {
+      "top_frac": 0.1081,
+      "background_frac": 0.0885,
+      "enrichment": 1.2222
+    },
+    "Structural motif": {
+      "top_frac": 0.1892,
+      "background_frac": 0.1914,
+      "enrichment": 0.9886
+    },
+    "Membrane-associated": {
+      "top_frac": 0.1081,
+      "background_frac": 0.1198,
+      "enrichment": 0.9025
+    },
+    "Catalytic function": {
+      "top_frac": 0.0541,
+      "background_frac": 0.0735,
+      "enrichment": 0.7355
+    },
+    "Ligand-binding site": {
+      "top_frac": 0.1081,
+      "background_frac": 0.1844,
+      "enrichment": 0.5861
+    },
+    "Domain": {
+      "top_frac": 0.0541,
+      "background_frac": 0.1393,
+      "enrichment": 0.388
+    },
+    "Repeat": {
+      "top_frac": 0.0,
+      "background_frac": 0.0176,
+      "enrichment": 0.0
+    },
+    "Taxonomic bias": {
+      "top_frac": 0.0,
+      "background_frac": 0.0002,
+      "enrichment": 0.0
+    },
+    "Unclassified": {
+      "top_frac": 0.0,
+      "background_frac": 0.0001,
+      "enrichment": 0.0
+    }
+  },
+  "onco_vs_tsg_profile": [
+    {
+      "category": "Catalytic function",
+      "oncogene_mean": 0.0351,
+      "tsg_mean": 0.02696,
+      "onco_minus_tsg": 0.00815
+    },
+    {
+      "category": "Compositional bias",
+      "oncogene_mean": 0.11365,
+      "tsg_mean": 0.13216,
+      "onco_minus_tsg": -0.01851
+    },
+    {
+      "category": "Disorder",
+      "oncogene_mean": 0.17552,
+      "tsg_mean": 0.22897,
+      "onco_minus_tsg": -0.05345
+    },
+    {
+      "category": "Domain",
+      "oncogene_mean": 0.10001,
+      "tsg_mean": 0.16002,
+      "onco_minus_tsg": -0.06001
+    },
+    {
+      "category": "Interaction site",
+      "oncogene_mean": 0.07385,
+      "tsg_mean": 0.07238,
+      "onco_minus_tsg": 0.00147
+    },
+    {
+      "category": "Ligand-binding site",
+      "oncogene_mean": 0.1024,
+      "tsg_mean": 0.0982,
+      "onco_minus_tsg": 0.0042
+    },
+    {
+      "category": "Membrane-associated",
+      "oncogene_mean": 0.05261,
+      "tsg_mean": 0.04228,
+      "onco_minus_tsg": 0.01033
+    },
+    {
+      "category": "Other",
+      "oncogene_mean": 0.01229,
+      "tsg_mean": 0.01516,
+      "onco_minus_tsg": -0.00287
+    },
+    {
+      "category": "Post-translational modification",
+      "oncogene_mean": 0.05051,
+      "tsg_mean": 0.0441,
+      "onco_minus_tsg": 0.00641
+    },
+    {
+      "category": "Repeat",
+      "oncogene_mean": 0.01895,
+      "tsg_mean": 0.00837,
+      "onco_minus_tsg": 0.01059
+    },
+    {
+      "category": "Sequence motif",
+      "oncogene_mean": 0.02048,
+      "tsg_mean": 0.01053,
+      "onco_minus_tsg": 0.00994
+    },
+    {
+      "category": "Structural motif",
+      "oncogene_mean": 0.2445,
+      "tsg_mean": 0.16086,
+      "onco_minus_tsg": 0.08364
+    },
+    {
+      "category": "Taxonomic bias",
+      "oncogene_mean": 0.0,
+      "tsg_mean": 0.0,
+      "onco_minus_tsg": 0.0
+    },
+    {
+      "category": "Unclassified",
+      "oncogene_mean": 0.00012,
+      "tsg_mean": 0.0,
+      "onco_minus_tsg": 0.00012
+    }
+  ],
+  "role_logo_auroc": 0.20822226307565034
+}
