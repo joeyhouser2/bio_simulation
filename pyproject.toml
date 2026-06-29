@@ -1,0 +1,47 @@
+[project]
+name = "sae-cancer"
+version = "0.1.0"
+description = "Mechanistic interpretation of cancer driver mutations via ESMC sparse-autoencoder features"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    # --- core scientific stack ---
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "tqdm",
+    "pyyaml",
+    "requests",
+    # --- protein LM + SAE (Path A: ESMC-6B, brief §9) ---
+    # esm package from Biohub/EvolutionaryScale; pulled at install time.
+    "esm @ git+https://github.com/Biohub/esm.git@main",
+    "biopython",
+    # --- modeling + interpretation ---
+    "xgboost",
+    "shap",
+    # torch is installed separately against the CUDA wheel index (see README).
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "ipython", "jupyter"]
+# Only if FP16 proves too tight on the 16 GB card; flaky on native Windows.
+quant = ["bitsandbytes"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+# Allow the `esm @ git+...` direct reference dependency.
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sae_cancer"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

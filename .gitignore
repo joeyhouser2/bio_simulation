@@ -1,0 +1,39 @@
+# Vendored esm clone (install workaround; not part of our source)
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.uv/
+.python-version
+
+# Caches / large artifacts (brief: gitignore activation caches & raw dumps)
+data/raw/
+data/features/
+*.safetensors
+*.pt
+*.npz
+*.h5
+.cache/
+hf_cache/
+
+# Notebooks scratch
+.ipynb_checkpoints/
+
+# Results that are regenerated (keep committed results curated by hand)
+results/scratch/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key
+
+# Keep the brief out of nothing — it's tracked intentionally
