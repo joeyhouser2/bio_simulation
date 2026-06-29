@@ -59,10 +59,19 @@ features (k=64/residue), with reconstruction FVU ≈ 0.16 at the configured laye
   pathogenic-vs-benign **AUROC 0.977** overall (TP53, balanced labels: 0.960);
   ProteinGym calibration **mean |Spearman| 0.446** over 5 panel-gene assays
   (in the ESM-family zero-shot range — baseline confirmed sane).
-- **Next:** Phase 2 — WT/mutant SAE disruption features (H1).
+- **Phase 2 complete** — per-variant WT→mutant SAE feature-disruption vectors
+  (local / window / global), cached under `data/features/`. H1 sanity check
+  (gene-stratified, confound-controlled): pathogenic variants disrupt *more* SAE
+  features (`n_features_changed` AUROC 0.62, magnitude ~0.57) but the disruption is
+  *broader, not more concentrated* — H1's "concentrated" half is refuted. Scalar
+  signal is modest vs the likelihood baseline; the Phase-3 classifier on the full
+  disruption vectors is the real test. (Pooled-across-gene scalars were confounded by
+  protein length/gene — a live demonstration of why held-out-genes splits matter.)
+- **Next:** Phase 3 — classify on disruption vectors vs both baselines; SHAP interpret.
 
 ```powershell
 .venv\Scripts\python.exe scripts\phase1_curate.py        # build the variant table
 .venv\Scripts\python.exe scripts\phase1_baseline.py      # likelihood baseline + metrics
 .venv\Scripts\python.exe scripts\phase1_calibration.py   # ProteinGym calibration
+.venv\Scripts\python.exe scripts\phase2_disruption.py    # disruption features + H1
 ```
