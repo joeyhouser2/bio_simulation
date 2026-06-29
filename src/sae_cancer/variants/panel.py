@@ -18,7 +18,9 @@ RAW_DIR = ROOT / "data" / "raw"
 SEQ_CACHE = RAW_DIR / "sequences"
 
 # 5-gene smoke panel: UniProt canonical accession + oncogene/TSG mechanism (H2 label).
-PANEL: dict[str, dict[str, str]] = {
+# UniProt canonical for KRAS is the 4B isoform (P01116-1); hotspot/ClinVar numbering
+# (G12, Q61, ...) matches this sequence.
+_SMOKE_PANEL: dict[str, dict[str, str]] = {
     "KRAS": {"uniprot": "P01116", "role": "oncogene"},
     "TP53": {"uniprot": "P04637", "role": "TSG"},
     "BRAF": {"uniprot": "P15056", "role": "oncogene"},
@@ -26,8 +28,20 @@ PANEL: dict[str, dict[str, str]] = {
     "EGFR": {"uniprot": "P00533", "role": "oncogene"},
 }
 
-# UniProt canonical for KRAS is the 4B isoform (P01116-1); hotspot/ClinVar numbering
-# (G12, Q61, ...) matches this sequence.
+# Expanded panel (Phase 4) committed here once built; falls back to the smoke panel.
+_PANEL_CSV = ROOT / "data" / "variants" / "panel.csv"
+
+
+def load_panel() -> dict[str, dict[str, str]]:
+    if _PANEL_CSV.exists():
+        import csv
+        with open(_PANEL_CSV, newline="") as f:
+            return {r["gene"]: {"uniprot": r["uniprot"], "role": r["role"]}
+                    for r in csv.DictReader(f)}
+    return dict(_SMOKE_PANEL)
+
+
+PANEL: dict[str, dict[str, str]] = load_panel()
 
 UNIPROT_FASTA = "https://rest.uniprot.org/uniprotkb/{acc}.fasta"
 
