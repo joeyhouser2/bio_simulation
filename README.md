@@ -67,11 +67,23 @@ features (k=64/residue), with reconstruction FVU ≈ 0.16 at the configured laye
   signal is modest vs the likelihood baseline; the Phase-3 classifier on the full
   disruption vectors is the real test. (Pooled-across-gene scalars were confounded by
   protein length/gene — a live demonstration of why held-out-genes splits matter.)
-- **Next:** Phase 3 — classify on disruption vectors vs both baselines; SHAP interpret.
+- **Phase 3 complete (600M)** — pathogenic-vs-benign classifiers under leave-one-gene-out
+  (held-out genes BRAF/EGFR/TP53). LOGO mean AUROC: **likelihood 0.975**,
+  embedding-delta 0.592, **SAE-disruption 0.867**, combined 0.952. Headline findings:
+  (1) the sparse SAE decomposition **generalizes across genes far better than dense
+  embeddings** (0.867 vs 0.592) — what the interpretable view adds over raw embeddings;
+  (2) SAE features **do not beat the raw-likelihood baseline** for held-out-gene
+  prediction (the brief's anticipated clean negative — interpretability is the
+  contribution). SHAP ranks the codebook features driving calls (feature 13421
+  dominant) for the H2 GPT-5-description cross-reference.
+- **Next:** H2 interpretability on the **6B** SAE (where GPT-5 feature descriptions
+  live) + Phase 4 scale-up to ~50-100 genes for a powered held-out-genes eval.
 
 ```powershell
 .venv\Scripts\python.exe scripts\phase1_curate.py        # build the variant table
 .venv\Scripts\python.exe scripts\phase1_baseline.py      # likelihood baseline + metrics
 .venv\Scripts\python.exe scripts\phase1_calibration.py   # ProteinGym calibration
 .venv\Scripts\python.exe scripts\phase2_disruption.py    # disruption features + H1
+.venv\Scripts\python.exe scripts\phase3_classify.py      # classifiers vs baselines (LOGO)
+.venv\Scripts\python.exe scripts\phase3_shap.py          # SHAP feature attribution
 ```
