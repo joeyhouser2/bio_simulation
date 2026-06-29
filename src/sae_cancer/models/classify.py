@@ -65,6 +65,26 @@ def logo_likelihood(score: np.ndarray, y: np.ndarray, genes: np.ndarray, min_eac
             "pooled": discrimination(oof_y, oof_s) if len(oof_y) else {}}
 
 
+def logo_pooled_xgb(X, y: np.ndarray, genes: np.ndarray) -> dict:
+    """Pooled gene-held-out AUROC for a per-gene-constant label (e.g. oncogene vs TSG).
+
+    Each gene's variants all share one label, so per-gene AUROC is undefined; instead we
+    collect out-of-fold predictions across all held-out genes and score once. Tests
+    whether the signal generalizes to unseen genes rather than memorizing gene identity.
+    """
+    oof = np.full(len(y), np.nan)
+    for g in np.unique(genes):
+        te = genes == g
+        tr = ~te
+        if len(np.unique(y[tr])) < 2:
+            continue
+        model = make_xgb(y[tr])
+        model.fit(_rows(X, tr), y[tr])
+        oof[te] = model.predict_proba(_rows(X, te))[:, 1]
+    ok = ~np.isnan(oof)
+    return {**discrimination(y[ok], oof[ok]), "n_genes": int(len(np.unique(genes[ok])))}
+
+
 def strat_xgb(X, y: np.ndarray, n_splits: int = 5) -> dict:
     """Pooled stratified-CV out-of-fold AUROC (held-out variants; mixes genes)."""
     skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=SEED)
