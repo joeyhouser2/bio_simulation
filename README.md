@@ -51,7 +51,16 @@ features (k=64/residue), with reconstruction FVU ≈ 0.16 at the configured laye
 
 ## Status
 
-**Phase 0 complete** — hardware path resolved, repo scaffolded, CUDA verified on both
-GPUs, local SAE extraction smoke-tested and verified bit-for-bit against the official
-implementation. Next: Phase 1 (5-gene variant panel + masked-marginal likelihood
-baseline).
+- **Phase 0 complete** — hardware path resolved, repo scaffolded, CUDA verified on
+  both GPUs, local SAE extraction verified bit-for-bit against the official impl.
+- **Phase 1 (core) complete** — curated 1,275 labeled variants for the 5-gene panel
+  (ClinVar pathogenic/benign + Cancer Hotspots drivers) into
+  `data/variants/variants.csv`; masked-marginal likelihood baseline gives
+  pathogenic-vs-benign **AUROC 0.977** overall (TP53, balanced labels: 0.960).
+  Remaining Phase 1 item: ProteinGym calibration check.
+- **Next:** Phase 2 — WT/mutant SAE disruption features (H1).
+
+```powershell
+.venv\Scripts\python.exe scripts\phase1_curate.py     # build the variant table
+.venv\Scripts\python.exe scripts\phase1_baseline.py   # likelihood baseline + metrics
+```

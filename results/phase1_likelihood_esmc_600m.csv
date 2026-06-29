@@ -1,0 +1,1276 @@
+gene,uniprot,role,position,wt_aa,mut_aa,hgvs_p,path_label,clinsig,is_hotspot,tumor_count,llr
+BRAF,P15056,oncogene,22,D,N,p.Asp22Asn,0.0,Benign,False,0,-1.0625
+BRAF,P15056,oncogene,23,M,K,p.Met23Lys,0.0,Benign/Likely benign,False,0,0.5625
+BRAF,P15056,oncogene,26,E,D,p.Glu26Asp,0.0,Benign/Likely benign,False,0,-0.75
+BRAF,P15056,oncogene,31,A,G,p.Ala31Gly,0.0,Likely benign,False,0,-1.25
+BRAF,P15056,oncogene,34,A,V,p.Ala34Val,0.0,Likely benign,False,0,-1.8125
+BRAF,P15056,oncogene,117,M,T,p.Met117Thr,0.0,Likely benign,False,0,1.625
+BRAF,P15056,oncogene,117,M,V,p.Met117Val,0.0,Likely benign,False,0,1.125
+BRAF,P15056,oncogene,136,S,A,p.Ser136Ala,0.0,Likely benign,False,0,-1.3749998807907104
+BRAF,P15056,oncogene,145,A,S,p.Ala145Ser,0.0,Likely benign,False,0,1.0
+BRAF,P15056,oncogene,215,S,F,p.Ser215Phe,1.0,Likely pathogenic,False,0,-6.125
+BRAF,P15056,oncogene,236,N,K,p.Asn236Lys,1.0,Likely pathogenic,False,0,-7.6875
+BRAF,P15056,oncogene,241,T,A,p.Thr241Ala,1.0,Pathogenic,False,0,-6.625
+BRAF,P15056,oncogene,241,T,K,p.Thr241Lys,1.0,Pathogenic,False,0,-9.125
+BRAF,P15056,oncogene,241,T,M,p.Thr241Met,1.0,Pathogenic/Likely pathogenic,False,0,-5.9375
+BRAF,P15056,oncogene,241,T,P,p.Thr241Pro,1.0,Pathogenic/Likely pathogenic,False,0,-8.3125
+BRAF,P15056,oncogene,241,T,R,p.Thr241Arg,1.0,Pathogenic,False,0,-9.5
+BRAF,P15056,oncogene,244,T,P,p.Thr244Pro,1.0,Pathogenic,False,0,-5.625
+BRAF,P15056,oncogene,245,L,F,p.Leu245Phe,1.0,Pathogenic,False,0,-4.9375
+BRAF,P15056,oncogene,246,A,P,p.Ala246Pro,1.0,Pathogenic,False,0,-6.625
+BRAF,P15056,oncogene,247,F,L,p.Phe247Leu,1.0,Pathogenic,False,0,-6.375
+BRAF,P15056,oncogene,247,F,S,p.Phe247Ser,1.0,Likely pathogenic,False,0,-7.375
+BRAF,P15056,oncogene,247,F,V,p.Phe247Val,1.0,Likely pathogenic,False,0,-7.90625
+BRAF,P15056,oncogene,257,Q,K,p.Gln257Lys,1.0,Pathogenic/Likely pathogenic,False,0,-3.4375
+BRAF,P15056,oncogene,257,Q,R,p.Gln257Arg,1.0,Pathogenic,False,0,-3.25
+BRAF,P15056,oncogene,262,Q,K,p.Gln262Lys,1.0,Pathogenic/Likely pathogenic,False,0,-1.375
+BRAF,P15056,oncogene,262,Q,P,p.Gln262Pro,1.0,Pathogenic/Likely pathogenic,False,0,-5.0625
+BRAF,P15056,oncogene,262,Q,R,p.Gln262Arg,1.0,Pathogenic/Likely pathogenic,False,0,-1.5
+BRAF,P15056,oncogene,265,G,A,p.Gly265Ala,1.0,Likely pathogenic,False,0,-4.3125
+BRAF,P15056,oncogene,265,G,R,p.Gly265Arg,1.0,Likely pathogenic,False,0,-5.0625
+BRAF,P15056,oncogene,275,E,K,p.Glu275Lys,1.0,Pathogenic/Likely pathogenic,False,0,3.375
+BRAF,P15056,oncogene,323,S,L,p.Ser323Leu,0.0,Benign,False,0,0.37499988079071045
+BRAF,P15056,oncogene,326,I,V,p.Ile326Val,0.0,Benign,False,0,0.5
+BRAF,P15056,oncogene,361,D,V,p.Asp361Val,1.0,Likely pathogenic,False,0,-0.3125
+BRAF,P15056,oncogene,366,A,P,p.Ala366Pro,1.0,Likely pathogenic,False,0,-4.0
+BRAF,P15056,oncogene,367,P,A,p.Pro367Ala,1.0,Likely pathogenic,False,0,-5.125
+BRAF,P15056,oncogene,384,R,G,p.Arg384Gly,0.0,Benign,False,0,-0.125
+BRAF,P15056,oncogene,426,R,T,p.Arg426Thr,1.0,Pathogenic,False,0,-3.0
+BRAF,P15056,oncogene,460,G,R,p.Gly460Arg,1.0,Likely pathogenic,False,0,-4.625
+BRAF,P15056,oncogene,462,R,I,p.Arg462Ile,1.0,Pathogenic,False,0,-7.937499523162842
+BRAF,P15056,oncogene,463,I,L,p.Ile463Leu,1.0,Likely pathogenic,False,0,-4.625
+BRAF,P15056,oncogene,463,I,S,p.Ile463Ser,1.0,Pathogenic,False,0,-11.4375
+BRAF,P15056,oncogene,464,G,A,p.Gly464Ala,1.0,Likely pathogenic,False,0,-7.0
+BRAF,P15056,oncogene,464,G,E,p.Gly464Glu,1.0,Pathogenic,False,0,-10.0625
+BRAF,P15056,oncogene,464,G,R,p.Gly464Arg,1.0,Pathogenic,False,0,-9.8125
+BRAF,P15056,oncogene,464,G,V,p.Gly464Val,1.0,Pathogenic/Likely pathogenic,False,0,-11.40625
+BRAF,P15056,oncogene,466,G,A,p.G466A,,,True,3,-11.15625
+BRAF,P15056,oncogene,466,G,E,p.G466E,,,True,14,-11.640625
+BRAF,P15056,oncogene,466,G,R,p.Gly466Arg,1.0,Pathogenic,False,0,-12.09375
+BRAF,P15056,oncogene,466,G,V,p.Gly466Val,1.0,Pathogenic,True,17,-12.203125
+BRAF,P15056,oncogene,467,S,A,p.Ser467Ala,1.0,Pathogenic,False,0,-8.046875
+BRAF,P15056,oncogene,468,F,C,p.Phe468Cys,1.0,Likely pathogenic,False,0,-7.5
+BRAF,P15056,oncogene,468,F,L,p.Phe468Leu,1.0,Likely pathogenic,False,0,-12.1875
+BRAF,P15056,oncogene,468,F,S,p.Phe468Ser,1.0,Pathogenic/Likely pathogenic,False,0,-9.25
+BRAF,P15056,oncogene,469,G,A,p.Gly469Ala,1.0,Pathogenic,True,34,-4.8125
+BRAF,P15056,oncogene,469,G,E,p.Gly469Glu,1.0,Pathogenic,True,4,-10.171875
+BRAF,P15056,oncogene,469,G,G,p.G469G,,,True,1,0.0
+BRAF,P15056,oncogene,469,G,R,p.Gly469Arg,1.0,Pathogenic/Likely pathogenic,True,8,-10.4375
+BRAF,P15056,oncogene,469,G,S,p.G469S,,,True,2,-7.5
+BRAF,P15056,oncogene,469,G,V,p.Gly469Val,1.0,Pathogenic,True,11,-11.140625
+BRAF,P15056,oncogene,470,T,P,p.Thr470Pro,1.0,Likely pathogenic,False,0,-11.9375
+BRAF,P15056,oncogene,470,T,R,p.Thr470Arg,1.0,Likely pathogenic,False,0,-10.25
+BRAF,P15056,oncogene,471,V,F,p.Val471Phe,1.0,Pathogenic/Likely pathogenic,False,0,-14.703125
+BRAF,P15056,oncogene,471,V,I,p.Val471Ile,1.0,Likely pathogenic,False,0,-8.65625
+BRAF,P15056,oncogene,481,A,E,p.Ala481Glu,1.0,Pathogenic/Likely pathogenic,False,0,-12.3125
+BRAF,P15056,oncogene,483,K,I,p.Lys483Ile,1.0,Likely pathogenic,False,0,-11.03125
+BRAF,P15056,oncogene,483,K,Q,p.Lys483Gln,1.0,Pathogenic/Likely pathogenic,False,0,-11.125
+BRAF,P15056,oncogene,483,K,T,p.Lys483Thr,1.0,Pathogenic,False,0,-10.125
+BRAF,P15056,oncogene,485,L,F,p.Leu485Phe,1.0,Pathogenic,True,1,-7.4375
+BRAF,P15056,oncogene,485,L,S,p.Leu485Ser,1.0,Likely pathogenic,True,1,-13.875
+BRAF,P15056,oncogene,485,L,W,p.Leu485Trp,1.0,Pathogenic,True,3,-14.15625
+BRAF,P15056,oncogene,487,V,G,p.Val487Gly,1.0,Pathogenic/Likely pathogenic,False,0,-8.125
+BRAF,P15056,oncogene,498,F,Y,p.Phe498Tyr,1.0,Likely pathogenic,False,0,-7.25
+BRAF,P15056,oncogene,499,K,E,p.Lys499Glu,1.0,Pathogenic/Likely pathogenic,False,0,-7.6875
+BRAF,P15056,oncogene,499,K,N,p.Lys499Asn,1.0,Pathogenic,False,0,-5.75
+BRAF,P15056,oncogene,501,E,A,p.Glu501Ala,1.0,Pathogenic,False,0,-13.578125
+BRAF,P15056,oncogene,501,E,G,p.Glu501Gly,1.0,Pathogenic/Likely pathogenic,False,0,-12.234375
+BRAF,P15056,oncogene,501,E,K,p.Glu501Lys,1.0,Pathogenic/Likely pathogenic,False,0,-10.765625
+BRAF,P15056,oncogene,501,E,Q,p.Glu501Gln,1.0,Likely pathogenic,False,0,-12.34375
+BRAF,P15056,oncogene,501,E,V,p.Glu501Val,1.0,Pathogenic/Likely pathogenic,False,0,-12.390625
+BRAF,P15056,oncogene,505,L,F,p.Leu505Phe,1.0,Pathogenic,False,0,-6.125
+BRAF,P15056,oncogene,525,L,P,p.Leu525Pro,1.0,Pathogenic/Likely pathogenic,False,0,-7.375
+BRAF,P15056,oncogene,525,L,Q,p.Leu525Gln,1.0,Pathogenic/Likely pathogenic,False,0,-9.3125
+BRAF,P15056,oncogene,525,L,R,p.Leu525Arg,1.0,Pathogenic,False,0,-10.375
+BRAF,P15056,oncogene,531,W,C,p.Trp531Cys,1.0,Pathogenic,False,0,-11.125
+BRAF,P15056,oncogene,531,W,L,p.Trp531Leu,1.0,Likely pathogenic,False,0,-8.875
+BRAF,P15056,oncogene,531,W,R,p.Trp531Arg,1.0,Pathogenic,False,0,-11.9375
+BRAF,P15056,oncogene,532,C,Y,p.Cys532Tyr,1.0,Likely pathogenic,False,0,-11.0
+BRAF,P15056,oncogene,534,G,R,p.Gly534Arg,1.0,Pathogenic/Likely pathogenic,False,0,-6.4375
+BRAF,P15056,oncogene,565,D,E,p.Asp565Glu,1.0,Likely pathogenic,False,0,-6.4375
+BRAF,P15056,oncogene,574,H,Q,p.His574Gln,1.0,Pathogenic,False,0,-10.625
+BRAF,P15056,oncogene,574,H,Y,p.His574Tyr,1.0,Pathogenic,False,0,-10.9375
+BRAF,P15056,oncogene,580,N,D,p.Asn580Asp,1.0,Pathogenic,False,0,-6.5625
+BRAF,P15056,oncogene,581,N,D,p.Asn581Asp,1.0,Pathogenic,True,1,-12.15625
+BRAF,P15056,oncogene,581,N,H,p.N581H,,,True,1,-11.8125
+BRAF,P15056,oncogene,581,N,I,p.N581I,,,True,3,-9.90625
+BRAF,P15056,oncogene,581,N,K,p.Asn581Lys,1.0,Pathogenic/Likely pathogenic,False,0,-8.96875
+BRAF,P15056,oncogene,581,N,S,p.Asn581Ser,1.0,Likely pathogenic,True,13,-11.5
+BRAF,P15056,oncogene,581,N,T,p.N581T,,,True,2,-10.75
+BRAF,P15056,oncogene,581,N,Y,p.N581Y,,,True,1,-12.125
+BRAF,P15056,oncogene,583,F,L,p.Phe583Leu,1.0,Likely pathogenic,False,0,-7.25
+BRAF,P15056,oncogene,589,T,P,p.Thr589Pro,1.0,Likely pathogenic,False,0,-11.25
+BRAF,P15056,oncogene,594,D,E,p.Asp594Glu,1.0,Likely pathogenic,True,1,-11.75
+BRAF,P15056,oncogene,594,D,G,p.D594G,,,True,21,-12.34375
+BRAF,P15056,oncogene,594,D,H,p.D594H,,,True,1,-13.34375
+BRAF,P15056,oncogene,594,D,N,p.Asp594Asn,1.0,Likely pathogenic,True,24,-10.8125
+BRAF,P15056,oncogene,594,D,V,p.Asp594Val,1.0,Pathogenic,True,2,-13.875
+BRAF,P15056,oncogene,594,D,Y,p.D594Y,,,True,2,-11.0
+BRAF,P15056,oncogene,595,F,L,p.Phe595Leu,1.0,Pathogenic/Likely pathogenic,False,0,-7.84375
+BRAF,P15056,oncogene,596,G,C,p.G596C,,,True,1,-11.203125
+BRAF,P15056,oncogene,596,G,D,p.G596D,,,True,1,-9.63671875
+BRAF,P15056,oncogene,596,G,R,p.G596R,,,True,4,-11.109375
+BRAF,P15056,oncogene,596,G,S,p.G596S,,,True,1,-9.8828125
+BRAF,P15056,oncogene,596,G,V,p.Gly596Val,1.0,Pathogenic,True,1,-10.443359375
+BRAF,P15056,oncogene,597,L,L,p.L597L,,,True,1,0.0
+BRAF,P15056,oncogene,597,L,Q,p.L597Q,,,True,3,-12.4375
+BRAF,P15056,oncogene,597,L,R,p.Leu597Arg,1.0,Pathogenic,True,3,-16.8125
+BRAF,P15056,oncogene,597,L,S,p.L597S,,,True,2,-11.5625
+BRAF,P15056,oncogene,597,L,V,p.Leu597Val,1.0,Pathogenic,True,1,-7.9375
+BRAF,P15056,oncogene,599,T,I,p.Thr599Ile,1.0,Pathogenic,False,0,-6.6875
+BRAF,P15056,oncogene,599,T,R,p.Thr599Arg,1.0,Pathogenic,False,0,-8.625
+BRAF,P15056,oncogene,600,V,E,p.V600E,,,True,833,-9.125
+BRAF,P15056,oncogene,600,V,G,p.Val600Gly,1.0,Pathogenic,True,3,-9.1875
+BRAF,P15056,oncogene,600,V,K,p.V600K,,,True,24,-12.5
+BRAF,P15056,oncogene,600,V,L,p.Val600Leu,1.0,Pathogenic/Likely pathogenic,False,0,-5.625
+BRAF,P15056,oncogene,600,V,M,p.Val600Met,1.0,Likely pathogenic,True,29,-6.6875
+BRAF,P15056,oncogene,600,V,R,p.V600R,,,True,4,-11.40625
+BRAF,P15056,oncogene,600,V,V,p.V600V,,,True,4,0.0
+BRAF,P15056,oncogene,601,K,E,p.Lys601Glu,1.0,Pathogenic,True,32,-12.9375
+BRAF,P15056,oncogene,601,K,I,p.Lys601Ile,1.0,Pathogenic/Likely pathogenic,False,0,-9.75
+BRAF,P15056,oncogene,601,K,N,p.K601N,,,True,5,-8.125
+BRAF,P15056,oncogene,601,K,Q,p.Lys601Gln,1.0,Pathogenic,False,0,-8.9375
+BRAF,P15056,oncogene,601,K,T,p.Lys601Thr,1.0,Pathogenic,True,1,-6.625
+BRAF,P15056,oncogene,638,D,E,p.Asp638Glu,1.0,Pathogenic,False,0,-8.8671875
+BRAF,P15056,oncogene,709,Q,E,p.Gln709Glu,1.0,Pathogenic,False,0,-4.25
+BRAF,P15056,oncogene,709,Q,R,p.Gln709Arg,1.0,Pathogenic,False,0,-1.5
+BRAF,P15056,oncogene,711,L,P,p.Leu711Pro,1.0,Likely pathogenic,False,0,-9.5
+BRAF,P15056,oncogene,712,A,D,p.Ala712Asp,1.0,Pathogenic/Likely pathogenic,False,0,-3.999999761581421
+EGFR,P00533,oncogene,7,A,T,p.Ala7Thr,0.0,Likely benign,False,0,-2.125
+EGFR,P00533,oncogene,23,R,G,p.Arg23Gly,0.0,Likely benign,False,0,-0.5
+EGFR,P00533,oncogene,24,A,S,p.Ala24Ser,0.0,Likely benign,False,0,-1.9999998807907104
+EGFR,P00533,oncogene,27,E,D,p.Glu27Asp,0.0,Likely benign,False,0,-0.5625001192092896
+EGFR,P00533,oncogene,62,L,R,p.L62R,,,True,10,-3.5
+EGFR,P00533,oncogene,108,R,G,p.R108G,,,True,2,-7.6875
+EGFR,P00533,oncogene,108,R,K,p.R108K,,,True,17,-6.25
+EGFR,P00533,oncogene,139,N,S,p.Asn139Ser,0.0,Likely benign,False,0,-1.25
+EGFR,P00533,oncogene,155,A,V,p.Ala155Val,0.0,Likely benign,False,0,0.125
+EGFR,P00533,oncogene,159,V,M,p.Val159Met,0.0,Likely benign,False,0,-0.5000001192092896
+EGFR,P00533,oncogene,160,E,D,p.Glu160Asp,0.0,Likely benign,False,0,0.7499998807907104
+EGFR,P00533,oncogene,179,D,E,p.Asp179Glu,0.0,Likely benign,False,0,-0.125
+EGFR,P00533,oncogene,185,G,S,p.Gly185Ser,0.0,Likely benign,False,0,0.625
+EGFR,P00533,oncogene,222,R,C,p.R222C,,,True,15,-6.625
+EGFR,P00533,oncogene,222,R,H,p.R222H,,,True,1,-2.875
+EGFR,P00533,oncogene,237,A,F,p.Ala237Phe,1.0,Likely pathogenic,False,0,-6.4375
+EGFR,P00533,oncogene,252,R,C,p.R252C,,,True,9,-6.5
+EGFR,P00533,oncogene,252,R,H,p.R252H,,,True,4,-2.25
+EGFR,P00533,oncogene,252,R,P,p.R252P,,,True,3,-6.0625
+EGFR,P00533,oncogene,263,T,I,p.T263I,,,True,1,-2.3125
+EGFR,P00533,oncogene,263,T,P,p.T263P,,,True,3,-5.9375
+EGFR,P00533,oncogene,289,A,D,p.A289D,,,True,6,-6.0625
+EGFR,P00533,oncogene,289,A,I,p.A289I,,,True,1,-6.9375
+EGFR,P00533,oncogene,289,A,N,p.A289N,,,True,1,-5.1875
+EGFR,P00533,oncogene,289,A,T,p.A289T,,,True,14,-3.875
+EGFR,P00533,oncogene,289,A,V,p.A289V,,,True,37,-4.875
+EGFR,P00533,oncogene,304,H,Y,p.H304Y,,,True,5,-1.875000238418579
+EGFR,P00533,oncogene,326,C,F,p.Cys326Phe,1.0,Pathogenic,False,0,-10.125
+EGFR,P00533,oncogene,363,T,A,p.T363A,,,True,2,-5.0
+EGFR,P00533,oncogene,363,T,I,p.T363I,,,True,4,-4.5625
+EGFR,P00533,oncogene,363,T,N,p.T363N,,,True,1,-5.0
+EGFR,P00533,oncogene,365,I,N,p.Ile365Asn,1.0,Pathogenic,False,0,-9.75
+EGFR,P00533,oncogene,414,R,G,p.Arg414Gly,0.0,Likely benign,False,0,-0.9375
+EGFR,P00533,oncogene,428,G,D,p.Gly428Asp,1.0,Pathogenic,False,0,-8.375
+EGFR,P00533,oncogene,443,L,V,p.Leu443Val,0.0,Likely benign,False,0,-3.3125
+EGFR,P00533,oncogene,454,K,R,p.Lys454Arg,0.0,Likely benign,False,0,-0.5
+EGFR,P00533,oncogene,479,K,N,p.Lys479Asn,0.0,Likely benign,False,0,0.5
+EGFR,P00533,oncogene,491,I,T,p.Ile491Thr,0.0,Likely benign,False,0,0.5625
+EGFR,P00533,oncogene,494,R,K,p.Arg494Lys,0.0,Likely benign,False,0,1.2500001192092896
+EGFR,P00533,oncogene,504,Q,E,p.Gln504Glu,0.0,Likely benign,False,0,-0.0625
+EGFR,P00533,oncogene,521,R,G,p.Arg521Gly,0.0,Likely benign,False,0,1.25
+EGFR,P00533,oncogene,521,R,K,p.Arg521Lys,0.0,Benign,False,0,1.0
+EGFR,P00533,oncogene,530,S,N,p.Ser530Asn,0.0,Likely benign,False,0,-0.75
+EGFR,P00533,oncogene,590,H,R,p.His590Arg,0.0,Likely benign,False,0,-1.8125
+EGFR,P00533,oncogene,592,V,I,p.Val592Ile,0.0,Benign/Likely benign,False,0,-3.625
+EGFR,P00533,oncogene,596,P,L,p.P596L,,,True,4,-5.625
+EGFR,P00533,oncogene,596,P,P,p.P596P,,,True,1,0.0
+EGFR,P00533,oncogene,596,P,R,p.P596R,,,True,1,-6.125
+EGFR,P00533,oncogene,596,P,S,p.Pro596Ser,1.0,Pathogenic,True,2,-3.75
+EGFR,P00533,oncogene,598,G,A,p.G598A,,,True,5,-5.8125
+EGFR,P00533,oncogene,598,G,E,p.G598E,,,True,1,-7.375
+EGFR,P00533,oncogene,598,G,R,p.Gly598Arg,1.0,Pathogenic,False,0,-7.25
+EGFR,P00533,oncogene,598,G,V,p.G598V,,,True,27,-8.3125
+EGFR,P00533,oncogene,607,V,I,p.Val607Ile,0.0,Likely benign,False,0,-0.125
+EGFR,P00533,oncogene,614,G,D,p.Gly614Asp,0.0,Likely benign,False,0,1.9375
+EGFR,P00533,oncogene,625,T,P,p.Thr625Pro,0.0,Benign,False,0,-2.8125
+EGFR,P00533,oncogene,646,I,F,p.Ile646Phe,1.0,Likely pathogenic,False,0,-2.0
+EGFR,P00533,oncogene,660,V,L,p.Val660Leu,0.0,Likely benign,False,0,0.375
+EGFR,P00533,oncogene,709,E,A,p.E709A,,,True,2,-4.1875
+EGFR,P00533,oncogene,709,E,K,p.E709K,,,True,13,-8.125
+EGFR,P00533,oncogene,709,E,Q,p.E709Q,,,True,1,-4.5625
+EGFR,P00533,oncogene,719,G,A,p.Gly719Ala,1.0,Pathogenic,True,18,-8.796875
+EGFR,P00533,oncogene,719,G,C,p.G719C,,,True,7,-11.0546875
+EGFR,P00533,oncogene,719,G,D,p.G719D,,,True,3,-8.890625
+EGFR,P00533,oncogene,719,G,S,p.G719S,,,True,5,-9.09375
+EGFR,P00533,oncogene,747,L,F,p.L747F,,,True,1,-8.6875
+EGFR,P00533,oncogene,747,L,L,p.L747L,,,True,3,0.0
+EGFR,P00533,oncogene,747,L,P,p.L747P,,,True,3,-10.8125
+EGFR,P00533,oncogene,747,L,S,p.L747S,,,True,1,-11.4375
+EGFR,P00533,oncogene,750,A,A,p.A750A,,,True,2,0.0
+EGFR,P00533,oncogene,750,A,P,p.A750P,,,True,2,-6.5625
+EGFR,P00533,oncogene,754,K,E,p.K754E,,,True,1,-5.125
+EGFR,P00533,oncogene,754,K,I,p.K754I,,,True,1,-7.5
+EGFR,P00533,oncogene,754,K,K,p.K754K,,,True,1,0.0
+EGFR,P00533,oncogene,763,A,T,p.Ala763Thr,1.0,Pathogenic,False,0,-6.5
+EGFR,P00533,oncogene,768,S,I,p.Ser768Ile,1.0,Pathogenic,True,14,-8.125
+EGFR,P00533,oncogene,768,S,T,p.S768T,,,True,1,-4.75
+EGFR,P00533,oncogene,790,T,M,p.T790M,,,True,59,-6.4375
+EGFR,P00533,oncogene,790,T,T,p.T790T,,,True,1,0.0
+EGFR,P00533,oncogene,813,Y,H,p.Tyr813His,0.0,Likely benign,False,0,0.24999988079071045
+EGFR,P00533,oncogene,833,L,F,p.Leu833Phe,1.0,Likely pathogenic,True,2,-8.1875
+EGFR,P00533,oncogene,833,L,M,p.L833M,,,True,1,-4.125
+EGFR,P00533,oncogene,833,L,V,p.L833V,,,True,2,-7.625
+EGFR,P00533,oncogene,834,V,L,p.Val834Leu,1.0,Pathogenic,False,0,-7.375
+EGFR,P00533,oncogene,838,L,M,p.L838M,,,True,2,-10.0625
+EGFR,P00533,oncogene,838,L,P,p.L838P,,,True,1,-14.625
+EGFR,P00533,oncogene,852,K,T,p.Lys852Thr,1.0,Likely pathogenic,False,0,-8.25
+EGFR,P00533,oncogene,854,T,I,p.Thr854Ile,1.0,Pathogenic,False,0,-8.4140625
+EGFR,P00533,oncogene,858,L,R,p.L858R,,,True,144,-12.0
+EGFR,P00533,oncogene,861,L,Q,p.L861Q,,,True,21,-6.8125
+EGFR,P00533,oncogene,904,V,I,p.Val904Ile,0.0,Likely benign,False,0,-1.375
+EGFR,P00533,oncogene,926,I,N,p.Ile926Asn,0.0,Benign/Likely benign,False,0,-7.562500476837158
+EGFR,P00533,oncogene,984,D,N,p.Asp984Asn,0.0,Likely benign,False,0,-2.375
+EGFR,P00533,oncogene,988,H,P,p.His988Pro,0.0,Benign/Likely benign,False,0,1.0
+EGFR,P00533,oncogene,1000,A,V,p.Ala1000Val,0.0,Likely benign,False,0,-2.625
+EGFR,P00533,oncogene,1040,A,T,p.Ala1040Thr,0.0,Likely benign,False,0,0.5625
+EGFR,P00533,oncogene,1047,V,M,p.Val1047Met,0.0,Benign/Likely benign,False,0,-0.9375
+EGFR,P00533,oncogene,1075,G,S,p.Gly1075Ser,0.0,Likely benign,False,0,0.875
+EGFR,P00533,oncogene,1089,V,A,p.Val1089Ala,0.0,Likely benign,False,0,0.125
+EGFR,P00533,oncogene,1097,V,F,p.Val1097Phe,0.0,Likely benign,False,0,0.125
+EGFR,P00533,oncogene,1116,N,H,p.Asn1116His,0.0,Likely benign,False,0,0.3125
+EGFR,P00533,oncogene,1120,S,R,p.Ser1120Arg,0.0,Benign,False,0,-1.1875
+EGFR,P00533,oncogene,1128,P,S,p.Pro1128Ser,0.0,Likely benign,False,0,-0.375
+EGFR,P00533,oncogene,1162,S,N,p.Ser1162Asn,0.0,Benign/Likely benign,False,0,-0.9375
+EGFR,P00533,oncogene,1189,G,A,p.Gly1189Ala,0.0,Benign/Likely benign,False,0,-0.0625
+EGFR,P00533,oncogene,1203,Q,P,p.Gln1203Pro,0.0,Likely benign,False,0,0.625
+KRAS,P01116,oncogene,5,K,E,p.Lys5Glu,1.0,Pathogenic/Likely pathogenic,True,3,-12.5
+KRAS,P01116,oncogene,5,K,N,p.Lys5Asn,1.0,Pathogenic,False,0,-9.0
+KRAS,P01116,oncogene,5,K,Q,p.Lys5Gln,1.0,Likely pathogenic,False,0,-9.5625
+KRAS,P01116,oncogene,7,V,E,p.Val7Glu,1.0,Likely pathogenic,False,0,-15.90625
+KRAS,P01116,oncogene,11,A,A,p.A11A,,,True,6,0.0
+KRAS,P01116,oncogene,11,A,T,p.A11T,,,True,2,-8.25
+KRAS,P01116,oncogene,12,G,A,p.Gly12Ala,1.0,Pathogenic/Likely pathogenic,True,134,-10.47265625
+KRAS,P01116,oncogene,12,G,C,p.Gly12Cys,1.0,Pathogenic,True,384,-10.658203125
+KRAS,P01116,oncogene,12,G,D,p.Gly12Asp,1.0,Pathogenic/Likely pathogenic,True,757,-11.431640625
+KRAS,P01116,oncogene,12,G,F,p.G12F,,,True,6,-14.609375
+KRAS,P01116,oncogene,12,G,G,p.G12G,,,True,1,0.0
+KRAS,P01116,oncogene,12,G,I,p.G12I,,,True,1,-14.171875
+KRAS,P01116,oncogene,12,G,L,p.G12L,,,True,1,-14.109375
+KRAS,P01116,oncogene,12,G,R,p.Gly12Arg,1.0,Pathogenic/Likely pathogenic,True,166,-11.9453125
+KRAS,P01116,oncogene,12,G,S,p.Gly12Ser,1.0,Pathogenic,True,68,-9.7421875
+KRAS,P01116,oncogene,12,G,V,p.Gly12Val,1.0,Pathogenic,True,657,-11.5390625
+KRAS,P01116,oncogene,13,G,A,p.G13A,,,True,1,-8.46484375
+KRAS,P01116,oncogene,13,G,C,p.Gly13Cys,1.0,Pathogenic/Likely pathogenic,True,32,-10.0703125
+KRAS,P01116,oncogene,13,G,D,p.Gly13Asp,1.0,Pathogenic,True,214,-9.90625
+KRAS,P01116,oncogene,13,G,E,p.G13E,,,True,3,-10.9375
+KRAS,P01116,oncogene,13,G,G,p.G13G,,,True,6,0.0
+KRAS,P01116,oncogene,13,G,R,p.Gly13Arg,1.0,Pathogenic,True,2,-11.71875
+KRAS,P01116,oncogene,13,G,V,p.Gly13Val,1.0,Pathogenic,True,6,-10.9375
+KRAS,P01116,oncogene,14,V,I,p.Val14Ile,1.0,Pathogenic,False,0,-9.34375
+KRAS,P01116,oncogene,15,G,V,p.Gly15Val,1.0,Likely pathogenic,False,0,-12.078125
+KRAS,P01116,oncogene,18,A,V,p.Ala18Val,1.0,Pathogenic,False,0,-11.75
+KRAS,P01116,oncogene,19,L,F,p.Leu19Phe,1.0,Likely pathogenic,True,12,-7.5625
+KRAS,P01116,oncogene,20,T,M,p.Thr20Met,1.0,Likely pathogenic,False,0,-10.21875
+KRAS,P01116,oncogene,22,Q,E,p.Gln22Glu,1.0,Pathogenic,False,0,-9.828125
+KRAS,P01116,oncogene,22,Q,H,p.Q22H,,,True,1,-9.34375
+KRAS,P01116,oncogene,22,Q,K,p.Gln22Lys,1.0,Pathogenic/Likely pathogenic,True,5,-9.296875
+KRAS,P01116,oncogene,22,Q,L,p.Gln22Leu,1.0,Likely pathogenic,False,0,-9.0
+KRAS,P01116,oncogene,22,Q,R,p.Gln22Arg,1.0,Pathogenic,False,0,-8.703125
+KRAS,P01116,oncogene,33,D,E,p.D33E,,,True,4,-9.921875
+KRAS,P01116,oncogene,34,P,L,p.Pro34Leu,1.0,Pathogenic,False,0,-10.625
+KRAS,P01116,oncogene,34,P,Q,p.Pro34Gln,1.0,Likely pathogenic,False,0,-11.125
+KRAS,P01116,oncogene,34,P,R,p.Pro34Arg,1.0,Pathogenic/Likely pathogenic,False,0,-13.45068359375
+KRAS,P01116,oncogene,36,I,M,p.Ile36Met,1.0,Pathogenic/Likely pathogenic,False,0,-11.84375
+KRAS,P01116,oncogene,50,T,P,p.Thr50Pro,1.0,Likely pathogenic,False,0,-7.21875
+KRAS,P01116,oncogene,53,L,W,p.Leu53Trp,1.0,Likely pathogenic,False,0,-16.578125
+KRAS,P01116,oncogene,58,T,I,p.Thr58Ile,1.0,Pathogenic,False,0,-12.23046875
+KRAS,P01116,oncogene,59,A,A,p.A59A,,,True,2,0.0
+KRAS,P01116,oncogene,59,A,E,p.A59E,,,True,1,-12.03125
+KRAS,P01116,oncogene,59,A,G,p.A59G,,,True,4,-10.59375
+KRAS,P01116,oncogene,59,A,L,p.Ala59Leu,1.0,Likely pathogenic,False,0,-13.83203125
+KRAS,P01116,oncogene,59,A,S,p.Ala59Ser,1.0,Pathogenic/Likely pathogenic,False,0,-9.9375
+KRAS,P01116,oncogene,59,A,T,p.Ala59Thr,1.0,Pathogenic,True,5,-10.09375
+KRAS,P01116,oncogene,60,G,D,p.G60D,,,True,2,-12.1875
+KRAS,P01116,oncogene,60,G,G,p.G60G,,,True,19,0.0
+KRAS,P01116,oncogene,60,G,R,p.Gly60Arg,1.0,Pathogenic,False,0,-13.15625
+KRAS,P01116,oncogene,60,G,S,p.Gly60Ser,1.0,Pathogenic,True,1,-12.3125
+KRAS,P01116,oncogene,60,G,V,p.Gly60Val,1.0,Pathogenic/Likely pathogenic,True,2,-12.96875
+KRAS,P01116,oncogene,61,Q,A,p.Q61A,,,True,1,-12.8125
+KRAS,P01116,oncogene,61,Q,E,p.Q61E,,,True,1,-12.125
+KRAS,P01116,oncogene,61,Q,H,p.Gln61His,1.0,Pathogenic,True,108,-11.5
+KRAS,P01116,oncogene,61,Q,K,p.Gln61Lys,1.0,Pathogenic,True,20,-12.375
+KRAS,P01116,oncogene,61,Q,L,p.Gln61Leu,1.0,Pathogenic,True,21,-12.71875
+KRAS,P01116,oncogene,61,Q,P,p.Q61P,,,True,2,-12.1875
+KRAS,P01116,oncogene,61,Q,R,p.Gln61Arg,1.0,Pathogenic,True,37,-12.1875
+KRAS,P01116,oncogene,65,S,I,p.Ser65Ile,1.0,Likely pathogenic,False,0,-12.03125
+KRAS,P01116,oncogene,68,R,G,p.Arg68Gly,1.0,Likely pathogenic,False,0,-12.890625
+KRAS,P01116,oncogene,68,R,S,p.Arg68Ser,1.0,Pathogenic/Likely pathogenic,False,0,-11.728515625
+KRAS,P01116,oncogene,68,R,W,p.Arg68Trp,1.0,Likely pathogenic,False,0,-11.828125
+KRAS,P01116,oncogene,71,Y,D,p.Tyr71Asp,1.0,Likely pathogenic,False,0,-14.1875
+KRAS,P01116,oncogene,71,Y,H,p.Tyr71His,1.0,Pathogenic,False,0,-10.81640625
+KRAS,P01116,oncogene,72,M,L,p.Met72Leu,1.0,Pathogenic,False,0,-9.96875
+KRAS,P01116,oncogene,74,T,I,p.Thr74Ile,1.0,Likely pathogenic,False,0,-8.5
+KRAS,P01116,oncogene,77,G,C,p.Gly77Cys,1.0,Likely pathogenic,False,0,-11.6875
+KRAS,P01116,oncogene,97,R,K,p.Arg97Lys,1.0,Likely pathogenic,False,0,-5.75
+KRAS,P01116,oncogene,116,N,H,p.Asn116His,1.0,Pathogenic,False,0,-12.859375
+KRAS,P01116,oncogene,116,N,S,p.Asn116Ser,1.0,Likely pathogenic,False,0,-10.09375
+KRAS,P01116,oncogene,117,K,N,p.Lys117Asn,1.0,Pathogenic,True,17,-6.3125
+KRAS,P01116,oncogene,117,K,R,p.Lys117Arg,1.0,Likely pathogenic,True,1,-9.9375
+KRAS,P01116,oncogene,117,K,T,p.Lys117Thr,1.0,Likely pathogenic,False,0,-8.5625
+KRAS,P01116,oncogene,119,D,N,p.Asp119Asn,1.0,Likely pathogenic,False,0,-10.796875
+KRAS,P01116,oncogene,146,A,P,p.Ala146Pro,1.0,Pathogenic/Likely pathogenic,True,5,-12.5625
+KRAS,P01116,oncogene,146,A,T,p.A146T,,,True,65,-8.5
+KRAS,P01116,oncogene,146,A,V,p.Ala146Val,1.0,Pathogenic/Likely pathogenic,True,16,-10.0
+KRAS,P01116,oncogene,147,K,E,p.Lys147Glu,1.0,Pathogenic/Likely pathogenic,False,0,-11.375
+KRAS,P01116,oncogene,147,K,M,p.Lys147Met,1.0,Likely pathogenic,False,0,-9.6875
+KRAS,P01116,oncogene,147,K,N,p.Lys147Asn,1.0,Likely pathogenic,False,0,-11.5625
+KRAS,P01116,oncogene,147,K,R,p.Lys147Arg,1.0,Pathogenic,False,0,-8.4375
+KRAS,P01116,oncogene,152,V,F,p.Val152Phe,1.0,Likely pathogenic,False,0,-9.625
+KRAS,P01116,oncogene,153,E,A,p.Glu153Ala,1.0,Likely pathogenic,False,0,-8.25
+KRAS,P01116,oncogene,154,D,G,p.Asp154Gly,1.0,Likely pathogenic,False,0,-8.0
+KRAS,P01116,oncogene,156,F,I,p.Phe156Ile,1.0,Pathogenic,False,0,-9.8125
+KRAS,P01116,oncogene,156,F,S,p.Phe156Ser,1.0,Pathogenic,False,0,-10.03125
+KRAS,P01116,oncogene,156,F,V,p.Phe156Val,1.0,Pathogenic/Likely pathogenic,False,0,-10.0
+KRAS,P01116,oncogene,167,R,T,p.Arg167Thr,0.0,Likely benign,False,0,-3.0
+PTEN,P60484,TSG,1,M,I,p.Met1Ile,1.0,Pathogenic,False,0,-7.3125
+PTEN,P60484,TSG,1,M,L,p.Met1Leu,1.0,Pathogenic,False,0,-7.1875
+PTEN,P60484,TSG,1,M,R,p.Met1Arg,1.0,Pathogenic/Likely pathogenic,False,0,-7.125
+PTEN,P60484,TSG,1,M,T,p.Met1Thr,1.0,Pathogenic,False,0,-7.3125
+PTEN,P60484,TSG,1,M,V,p.Met1Val,1.0,Pathogenic,False,0,-7.4375
+PTEN,P60484,TSG,5,I,T,p.Ile5Thr,1.0,Likely pathogenic,False,0,-5.375
+PTEN,P60484,TSG,6,K,E,p.Lys6Glu,1.0,Pathogenic,False,0,-7.5625
+PTEN,P60484,TSG,6,K,I,p.Lys6Ile,1.0,Likely pathogenic,False,0,-8.9375
+PTEN,P60484,TSG,12,N,I,p.Asn12Ile,1.0,Likely pathogenic,False,0,-8.625
+PTEN,P60484,TSG,12,N,T,p.Asn12Thr,1.0,Pathogenic,False,0,-4.4375
+PTEN,P60484,TSG,13,K,E,p.Lys13Glu,1.0,Pathogenic/Likely pathogenic,False,0,-10.46875
+PTEN,P60484,TSG,13,K,Q,p.Lys13Gln,1.0,Likely pathogenic,False,0,-7.625
+PTEN,P60484,TSG,15,R,G,p.Arg15Gly,1.0,Likely pathogenic,False,0,-10.4375
+PTEN,P60484,TSG,15,R,I,p.Arg15Ile,1.0,Likely pathogenic,False,0,-10.625
+PTEN,P60484,TSG,15,R,K,p.Arg15Lys,1.0,Likely pathogenic,False,0,-7.0625
+PTEN,P60484,TSG,15,R,S,p.Arg15Ser,1.0,Pathogenic/Likely pathogenic,False,0,-10.0625
+PTEN,P60484,TSG,15,R,T,p.Arg15Thr,1.0,Likely pathogenic,False,0,-10.9375
+PTEN,P60484,TSG,16,Y,D,p.Tyr16Asp,1.0,Pathogenic/Likely pathogenic,True,1,-11.0
+PTEN,P60484,TSG,16,Y,Y,p.Y16Y,,,True,1,0.0
+PTEN,P60484,TSG,19,D,V,p.Asp19Val,1.0,Pathogenic,False,0,-8.9375
+PTEN,P60484,TSG,20,G,V,p.Gly20Val,1.0,Likely pathogenic,False,0,-9.625
+PTEN,P60484,TSG,21,F,S,p.Phe21Ser,1.0,Pathogenic,False,0,-9.9375
+PTEN,P60484,TSG,22,D,H,p.Asp22His,1.0,Likely pathogenic,False,0,-8.0625
+PTEN,P60484,TSG,22,D,V,p.Asp22Val,1.0,Likely pathogenic,False,0,-9.9375
+PTEN,P60484,TSG,22,D,Y,p.Asp22Tyr,1.0,Likely pathogenic,False,0,-9.75
+PTEN,P60484,TSG,23,L,V,p.Leu23Val,1.0,Likely pathogenic,False,0,-7.5
+PTEN,P60484,TSG,24,D,E,p.D24E,,,True,2,-8.9375
+PTEN,P60484,TSG,24,D,G,p.Asp24Gly,1.0,Pathogenic/Likely pathogenic,True,3,-10.375
+PTEN,P60484,TSG,24,D,H,p.Asp24His,1.0,Pathogenic,True,2,-10.46875
+PTEN,P60484,TSG,24,D,N,p.Asp24Asn,1.0,Pathogenic,True,1,-7.4375
+PTEN,P60484,TSG,24,D,V,p.Asp24Val,1.0,Pathogenic/Likely pathogenic,True,2,-12.046875
+PTEN,P60484,TSG,24,D,Y,p.Asp24Tyr,1.0,Pathogenic,False,0,-11.125
+PTEN,P60484,TSG,25,L,F,p.Leu25Phe,1.0,Pathogenic,False,0,-7.625
+PTEN,P60484,TSG,26,T,I,p.Thr26Ile,1.0,Pathogenic/Likely pathogenic,False,0,-9.9375
+PTEN,P60484,TSG,26,T,N,p.Thr26Asn,1.0,Likely pathogenic,False,0,-6.9375
+PTEN,P60484,TSG,26,T,P,p.Thr26Pro,1.0,Pathogenic,False,0,-7.9375
+PTEN,P60484,TSG,27,Y,C,p.Tyr27Cys,1.0,Likely pathogenic,True,2,-9.125
+PTEN,P60484,TSG,27,Y,D,p.Y27D,,,True,4,-11.65625
+PTEN,P60484,TSG,27,Y,F,p.Tyr27Phe,1.0,Pathogenic,False,0,-5.8125
+PTEN,P60484,TSG,27,Y,H,p.Y27H,,,True,1,-8.3125
+PTEN,P60484,TSG,27,Y,N,p.Tyr27Asn,1.0,Likely pathogenic,True,2,-11.25
+PTEN,P60484,TSG,27,Y,S,p.Tyr27Ser,1.0,Likely pathogenic,False,0,-11.53125
+PTEN,P60484,TSG,31,N,D,p.Asn31Asp,1.0,Likely pathogenic,False,0,-9.1875
+PTEN,P60484,TSG,32,I,S,p.Ile32Ser,1.0,Likely pathogenic,False,0,-10.78125
+PTEN,P60484,TSG,34,A,P,p.Ala34Pro,1.0,Pathogenic,False,0,-11.875
+PTEN,P60484,TSG,35,M,I,p.Met35Ile,1.0,Likely pathogenic,True,4,-6.0625
+PTEN,P60484,TSG,35,M,L,p.Met35Leu,1.0,Likely pathogenic,True,1,-3.3125
+PTEN,P60484,TSG,35,M,R,p.Met35Arg,1.0,Pathogenic,False,0,-11.1875
+PTEN,P60484,TSG,35,M,T,p.Met35Thr,1.0,Likely pathogenic,False,0,-8.625
+PTEN,P60484,TSG,35,M,V,p.Met35Val,1.0,Pathogenic,True,3,-6.75
+PTEN,P60484,TSG,36,G,E,p.Gly36Glu,1.0,Pathogenic,False,0,-13.96875
+PTEN,P60484,TSG,36,G,R,p.Gly36Arg,1.0,Likely pathogenic,False,0,-12.375
+PTEN,P60484,TSG,38,P,F,p.P38F,,,True,1,-14.74169921875
+PTEN,P60484,TSG,38,P,H,p.Pro38His,1.0,Likely pathogenic,False,0,-12.7734375
+PTEN,P60484,TSG,38,P,L,p.Pro38Leu,1.0,Pathogenic,True,3,-11.4375
+PTEN,P60484,TSG,38,P,R,p.Pro38Arg,1.0,Pathogenic,False,0,-12.21875
+PTEN,P60484,TSG,38,P,S,p.P38S,,,True,7,-11.390625
+PTEN,P60484,TSG,38,P,T,p.Pro38Thr,1.0,Likely pathogenic,False,0,-11.984375
+PTEN,P60484,TSG,39,A,T,p.Ala39Thr,1.0,Likely pathogenic,False,0,-7.3125
+PTEN,P60484,TSG,39,A,V,p.Ala39Val,1.0,Likely pathogenic,False,0,-9.5625
+PTEN,P60484,TSG,44,G,D,p.Gly44Asp,1.0,Pathogenic,False,0,-9.8125
+PTEN,P60484,TSG,46,Y,H,p.Tyr46His,1.0,Likely pathogenic,False,0,-8.875
+PTEN,P60484,TSG,46,Y,N,p.Tyr46Asn,1.0,Likely pathogenic,False,0,-12.4375
+PTEN,P60484,TSG,47,R,G,p.Arg47Gly,1.0,Pathogenic,False,0,-11.6875
+PTEN,P60484,TSG,47,R,K,p.Arg47Lys,1.0,Likely pathogenic,False,0,-9.0
+PTEN,P60484,TSG,48,N,K,p.Asn48Lys,1.0,Pathogenic/Likely pathogenic,False,0,-11.0
+PTEN,P60484,TSG,48,N,S,p.Asn48Ser,1.0,Pathogenic,False,0,-9.875
+PTEN,P60484,TSG,50,I,T,p.Ile50Thr,1.0,Pathogenic,False,0,-8.1875
+PTEN,P60484,TSG,53,V,A,p.Val53Ala,1.0,Likely pathogenic,False,0,-4.5
+PTEN,P60484,TSG,53,V,I,p.Val53Ile,1.0,Pathogenic,False,0,-6.5
+PTEN,P60484,TSG,56,F,S,p.Phe56Ser,1.0,Likely pathogenic,False,0,-9.125
+PTEN,P60484,TSG,57,L,W,p.Leu57Trp,1.0,Likely pathogenic,False,0,-10.8125
+PTEN,P60484,TSG,61,H,D,p.His61Asp,1.0,Likely pathogenic,False,0,-10.375
+PTEN,P60484,TSG,61,H,N,p.H61N,,,True,1,-9.1875
+PTEN,P60484,TSG,61,H,P,p.His61Pro,1.0,Likely pathogenic,False,0,-10.9375
+PTEN,P60484,TSG,61,H,R,p.His61Arg,1.0,Likely pathogenic,True,4,-10.375
+PTEN,P60484,TSG,61,H,Y,p.His61Tyr,1.0,Likely pathogenic,True,1,-7.0625
+PTEN,P60484,TSG,64,H,P,p.His64Pro,1.0,Pathogenic/Likely pathogenic,False,0,-13.90625
+PTEN,P60484,TSG,66,K,E,p.Lys66Glu,1.0,Likely pathogenic,False,0,-10.5625
+PTEN,P60484,TSG,66,K,N,p.Lys66Asn,1.0,Likely pathogenic,False,0,-9.375
+PTEN,P60484,TSG,67,I,K,p.I67K,,,True,1,-14.625
+PTEN,P60484,TSG,67,I,R,p.Ile67Arg,1.0,Likely pathogenic,False,0,-14.46875
+PTEN,P60484,TSG,67,I,T,p.I67T,,,True,2,-10.5
+PTEN,P60484,TSG,67,I,V,p.I67V,,,True,1,0.125
+PTEN,P60484,TSG,68,Y,C,p.Tyr68Cys,1.0,Pathogenic/Likely pathogenic,True,2,-10.0
+PTEN,P60484,TSG,68,Y,D,p.Tyr68Asp,1.0,Pathogenic/Likely pathogenic,False,0,-12.28125
+PTEN,P60484,TSG,68,Y,H,p.Tyr68His,1.0,Pathogenic/Likely pathogenic,True,6,-10.125
+PTEN,P60484,TSG,68,Y,N,p.Y68N,,,True,1,-12.125
+PTEN,P60484,TSG,70,L,P,p.Leu70Pro,1.0,Likely pathogenic,False,0,-14.0
+PTEN,P60484,TSG,71,C,F,p.C71F,,,True,1,-11.03125
+PTEN,P60484,TSG,71,C,W,p.Cys71Trp,1.0,Likely pathogenic,False,0,-13.21875
+PTEN,P60484,TSG,71,C,Y,p.Cys71Tyr,1.0,Pathogenic,True,5,-10.8125
+PTEN,P60484,TSG,79,A,T,p.Ala79Thr,0.0,Benign,False,0,0.375
+PTEN,P60484,TSG,81,F,C,p.Phe81Cys,1.0,Likely pathogenic,False,0,-10.6875
+PTEN,P60484,TSG,90,F,L,p.Phe90Leu,1.0,Likely pathogenic,False,0,-9.0625
+PTEN,P60484,TSG,90,F,S,p.Phe90Ser,1.0,Pathogenic/Likely pathogenic,False,0,-11.4375
+PTEN,P60484,TSG,92,D,A,p.Asp92Ala,1.0,Pathogenic/Likely pathogenic,False,0,-13.6171875
+PTEN,P60484,TSG,92,D,E,p.Asp92Glu,1.0,Likely pathogenic,True,7,-11.859375
+PTEN,P60484,TSG,92,D,G,p.Asp92Gly,1.0,Pathogenic/Likely pathogenic,True,3,-12.1015625
+PTEN,P60484,TSG,92,D,H,p.D92H,,,True,2,-12.66796875
+PTEN,P60484,TSG,92,D,N,p.Asp92Asn,1.0,Likely pathogenic,True,2,-10.359375
+PTEN,P60484,TSG,92,D,V,p.Asp92Val,1.0,Pathogenic/Likely pathogenic,True,2,-12.982421875
+PTEN,P60484,TSG,92,D,Y,p.Asp92Tyr,1.0,Pathogenic/Likely pathogenic,True,2,-11.5859375
+PTEN,P60484,TSG,93,H,D,p.His93Asp,1.0,Likely pathogenic,False,0,-11.9375
+PTEN,P60484,TSG,93,H,L,p.H93L,,,True,1,-10.90625
+PTEN,P60484,TSG,93,H,N,p.His93Asn,1.0,Likely pathogenic,False,0,-8.9375
+PTEN,P60484,TSG,93,H,P,p.His93Pro,1.0,Likely pathogenic,True,1,-12.90625
+PTEN,P60484,TSG,93,H,R,p.His93Arg,1.0,Pathogenic,True,6,-10.90625
+PTEN,P60484,TSG,93,H,Y,p.His93Tyr,1.0,Pathogenic/Likely pathogenic,True,4,-9.25
+PTEN,P60484,TSG,95,P,L,p.Pro95Leu,1.0,Pathogenic,False,0,-10.4375
+PTEN,P60484,TSG,96,P,L,p.Pro96Leu,1.0,Likely pathogenic,False,0,-7.625
+PTEN,P60484,TSG,96,P,Q,p.Pro96Gln,1.0,Pathogenic/Likely pathogenic,False,0,-11.0
+PTEN,P60484,TSG,96,P,R,p.Pro96Arg,1.0,Pathogenic/Likely pathogenic,False,0,-11.59375
+PTEN,P60484,TSG,96,P,S,p.Pro96Ser,1.0,Pathogenic,False,0,-8.5
+PTEN,P60484,TSG,98,L,P,p.Leu98Pro,1.0,Pathogenic/Likely pathogenic,False,0,-8.8125
+PTEN,P60484,TSG,98,L,R,p.Leu98Arg,1.0,Pathogenic/Likely pathogenic,False,0,-10.8125
+PTEN,P60484,TSG,100,L,F,p.Leu100Phe,1.0,Likely pathogenic,False,0,-3.625000238418579
+PTEN,P60484,TSG,101,I,N,p.Ile101Asn,1.0,Pathogenic/Likely pathogenic,False,0,-9.9375
+PTEN,P60484,TSG,101,I,T,p.Ile101Thr,1.0,Pathogenic/Likely pathogenic,True,4,-7.125
+PTEN,P60484,TSG,105,C,G,p.Cys105Gly,1.0,Likely pathogenic,True,1,-9.75
+PTEN,P60484,TSG,105,C,R,p.Cys105Arg,1.0,Likely pathogenic,True,1,-10.3125
+PTEN,P60484,TSG,105,C,S,p.C105S,,,True,1,-6.375
+PTEN,P60484,TSG,105,C,W,p.C105W,,,True,1,-10.3125
+PTEN,P60484,TSG,105,C,Y,p.Cys105Tyr,1.0,Pathogenic,True,2,-8.25
+PTEN,P60484,TSG,107,D,G,p.Asp107Gly,1.0,Likely pathogenic,False,0,-9.0
+PTEN,P60484,TSG,107,D,V,p.Asp107Val,1.0,Pathogenic,False,0,-11.875
+PTEN,P60484,TSG,107,D,Y,p.Asp107Tyr,1.0,Pathogenic,False,0,-12.03125
+PTEN,P60484,TSG,108,L,F,p.Leu108Phe,1.0,Likely pathogenic,False,0,-5.875
+PTEN,P60484,TSG,108,L,P,p.Leu108Pro,1.0,Pathogenic/Likely pathogenic,False,0,-11.9375
+PTEN,P60484,TSG,108,L,R,p.Leu108Arg,1.0,Likely pathogenic,False,0,-11.4375
+PTEN,P60484,TSG,111,W,C,p.Trp111Cys,1.0,Pathogenic,False,0,-10.34375
+PTEN,P60484,TSG,111,W,G,p.W111G,,,True,1,-12.28125
+PTEN,P60484,TSG,111,W,R,p.Trp111Arg,1.0,Pathogenic,True,1,-11.0625
+PTEN,P60484,TSG,111,W,S,p.W111S,,,True,1,-11.25
+PTEN,P60484,TSG,112,L,P,p.Leu112Pro,1.0,Pathogenic,False,0,-11.625
+PTEN,P60484,TSG,112,L,R,p.Leu112Arg,1.0,Pathogenic,False,0,-9.375
+PTEN,P60484,TSG,112,L,V,p.Leu112Val,1.0,Likely pathogenic,False,0,-5.625
+PTEN,P60484,TSG,118,H,P,p.His118Pro,1.0,Likely pathogenic,False,0,-9.90625
+PTEN,P60484,TSG,119,V,A,p.Val119Ala,1.0,Likely pathogenic,False,0,-7.5625
+PTEN,P60484,TSG,119,V,F,p.Val119Phe,1.0,Likely pathogenic,False,0,-9.8125
+PTEN,P60484,TSG,119,V,G,p.Val119Gly,1.0,Likely pathogenic,False,0,-11.5
+PTEN,P60484,TSG,119,V,L,p.Val119Leu,1.0,Likely pathogenic,False,0,-6.625
+PTEN,P60484,TSG,121,A,E,p.Ala121Glu,1.0,Likely pathogenic,False,0,-12.3125
+PTEN,P60484,TSG,121,A,P,p.Ala121Pro,1.0,Likely pathogenic,False,0,-11.1875
+PTEN,P60484,TSG,121,A,S,p.Ala121Ser,1.0,Likely pathogenic,False,0,-5.625
+PTEN,P60484,TSG,121,A,T,p.Ala121Thr,1.0,Likely pathogenic,False,0,-5.5
+PTEN,P60484,TSG,123,H,D,p.His123Asp,1.0,Pathogenic,False,0,-16.4296875
+PTEN,P60484,TSG,123,H,L,p.His123Leu,1.0,Likely pathogenic,False,0,-17.13671875
+PTEN,P60484,TSG,123,H,N,p.His123Asn,1.0,Likely pathogenic,False,0,-11.03125
+PTEN,P60484,TSG,123,H,Q,p.His123Gln,1.0,Pathogenic/Likely pathogenic,False,0,-13.9375
+PTEN,P60484,TSG,123,H,R,p.His123Arg,1.0,Pathogenic,False,0,-14.390625
+PTEN,P60484,TSG,123,H,Y,p.His123Tyr,1.0,Pathogenic/Likely pathogenic,False,0,-11.90625
+PTEN,P60484,TSG,124,C,F,p.Cys124Phe,1.0,Pathogenic,False,0,-12.0625
+PTEN,P60484,TSG,124,C,G,p.Cys124Gly,1.0,Pathogenic,True,1,-10.5625
+PTEN,P60484,TSG,124,C,R,p.Cys124Arg,1.0,Pathogenic,True,1,-11.625
+PTEN,P60484,TSG,124,C,S,p.Cys124Ser,1.0,Pathogenic/Likely pathogenic,True,4,-9.625
+PTEN,P60484,TSG,124,C,W,p.Cys124Trp,1.0,Pathogenic/Likely pathogenic,False,0,-11.5625
+PTEN,P60484,TSG,124,C,Y,p.Cys124Tyr,1.0,Pathogenic/Likely pathogenic,True,2,-10.875
+PTEN,P60484,TSG,125,K,E,p.Lys125Glu,1.0,Pathogenic,False,0,-13.0625
+PTEN,P60484,TSG,125,K,R,p.Lys125Arg,1.0,Likely pathogenic,False,0,-11.0625
+PTEN,P60484,TSG,126,A,D,p.A126D,,,True,3,-11.5625
+PTEN,P60484,TSG,126,A,G,p.A126G,,,True,1,-6.75
+PTEN,P60484,TSG,126,A,P,p.Ala126Pro,1.0,Pathogenic,False,0,-13.9375
+PTEN,P60484,TSG,126,A,S,p.A126S,,,True,4,-10.1875
+PTEN,P60484,TSG,126,A,T,p.Ala126Thr,1.0,Likely pathogenic,False,0,-11.5
+PTEN,P60484,TSG,126,A,V,p.Ala126Val,1.0,Pathogenic/Likely pathogenic,True,3,-11.4375
+PTEN,P60484,TSG,127,G,E,p.Gly127Glu,1.0,Likely pathogenic,True,5,-11.90625
+PTEN,P60484,TSG,127,G,R,p.Gly127Arg,1.0,Likely pathogenic,True,5,-11.640625
+PTEN,P60484,TSG,127,G,V,p.G127V,,,True,3,-11.640625
+PTEN,P60484,TSG,128,K,E,p.Lys128Glu,1.0,Likely pathogenic,False,0,-12.3125
+PTEN,P60484,TSG,128,K,N,p.Lys128Asn,1.0,Likely pathogenic,False,0,-12.75
+PTEN,P60484,TSG,128,K,R,p.Lys128Arg,1.0,Pathogenic/Likely pathogenic,False,0,-10.8125
+PTEN,P60484,TSG,129,G,E,p.Gly129Glu,1.0,Pathogenic/Likely pathogenic,True,4,-12.78125
+PTEN,P60484,TSG,129,G,G,p.G129G,,,True,2,0.0
+PTEN,P60484,TSG,129,G,R,p.Gly129Arg,1.0,Pathogenic,True,3,-12.25
+PTEN,P60484,TSG,129,G,V,p.Gly129Val,1.0,Pathogenic/Likely pathogenic,True,2,-12.953125
+PTEN,P60484,TSG,130,R,G,p.Arg130Gly,1.0,Pathogenic,True,44,-11.6875
+PTEN,P60484,TSG,130,R,L,p.Arg130Leu,1.0,Pathogenic/Likely pathogenic,True,5,-12.21875
+PTEN,P60484,TSG,130,R,P,p.Arg130Pro,1.0,Pathogenic,True,6,-13.8125
+PTEN,P60484,TSG,130,R,Q,p.Arg130Gln,1.0,Pathogenic,True,72,-11.1875
+PTEN,P60484,TSG,130,R,R,p.R130R,,,True,2,0.0
+PTEN,P60484,TSG,130,R,S,p.R130S,,,True,1,-11.96875
+PTEN,P60484,TSG,131,T,I,p.Thr131Ile,1.0,Pathogenic,False,0,-11.59375
+PTEN,P60484,TSG,132,G,A,p.G132A,,,True,3,-11.109375
+PTEN,P60484,TSG,132,G,D,p.Gly132Asp,1.0,Pathogenic,True,8,-13.27734375
+PTEN,P60484,TSG,132,G,S,p.Gly132Ser,1.0,Pathogenic/Likely pathogenic,True,3,-12.125
+PTEN,P60484,TSG,132,G,V,p.Gly132Val,1.0,Pathogenic/Likely pathogenic,True,3,-12.2578125
+PTEN,P60484,TSG,134,M,I,p.Met134Ile,1.0,Likely pathogenic,False,0,-5.8125
+PTEN,P60484,TSG,134,M,R,p.Met134Arg,1.0,Likely pathogenic,False,0,-12.0
+PTEN,P60484,TSG,134,M,T,p.Met134Thr,1.0,Pathogenic/Likely pathogenic,False,0,-6.25
+PTEN,P60484,TSG,134,M,V,p.Met134Val,1.0,Pathogenic,False,0,-6.25
+PTEN,P60484,TSG,135,I,K,p.Ile135Lys,1.0,Pathogenic/Likely pathogenic,False,0,-14.40625
+PTEN,P60484,TSG,135,I,V,p.Ile135Val,1.0,Pathogenic/Likely pathogenic,False,0,-3.625
+PTEN,P60484,TSG,136,C,F,p.Cys136Phe,1.0,Pathogenic/Likely pathogenic,True,2,-12.5625
+PTEN,P60484,TSG,136,C,R,p.Cys136Arg,1.0,Pathogenic/Likely pathogenic,True,9,-13.125
+PTEN,P60484,TSG,136,C,W,p.Cys136Trp,1.0,Pathogenic,False,0,-15.1875
+PTEN,P60484,TSG,136,C,Y,p.Cys136Tyr,1.0,Pathogenic,True,2,-12.25
+PTEN,P60484,TSG,137,A,E,p.Ala137Glu,1.0,Likely pathogenic,False,0,-8.9375
+PTEN,P60484,TSG,140,L,F,p.L140F,,,True,1,-6.125
+PTEN,P60484,TSG,141,H,L,p.His141Leu,1.0,Likely pathogenic,False,0,-7.375
+PTEN,P60484,TSG,141,H,P,p.His141Pro,1.0,Likely pathogenic,False,0,-11.375
+PTEN,P60484,TSG,142,R,P,p.Arg142Pro,1.0,Likely pathogenic,False,0,-9.0
+PTEN,P60484,TSG,152,L,Q,p.Leu152Gln,1.0,Likely pathogenic,False,0,-9.25
+PTEN,P60484,TSG,154,F,C,p.Phe154Cys,1.0,Likely pathogenic,False,0,-4.75
+PTEN,P60484,TSG,155,Y,C,p.Tyr155Cys,1.0,Pathogenic,True,4,-10.40625
+PTEN,P60484,TSG,155,Y,H,p.Tyr155His,1.0,Pathogenic/Likely pathogenic,True,1,-10.09375
+PTEN,P60484,TSG,155,Y,N,p.Tyr155Asn,1.0,Likely pathogenic,False,0,-11.4375
+PTEN,P60484,TSG,155,Y,S,p.Tyr155Ser,1.0,Pathogenic/Likely pathogenic,False,0,-11.3125
+PTEN,P60484,TSG,159,R,G,p.Arg159Gly,1.0,Pathogenic/Likely pathogenic,False,0,-13.46875
+PTEN,P60484,TSG,159,R,K,p.Arg159Lys,1.0,Pathogenic,False,0,-10.53125
+PTEN,P60484,TSG,159,R,S,p.Arg159Ser,1.0,Likely pathogenic,False,0,-13.28125
+PTEN,P60484,TSG,159,R,W,p.Arg159Trp,1.0,Pathogenic,False,0,-15.3863525390625
+PTEN,P60484,TSG,160,T,I,p.Thr160Ile,1.0,Likely pathogenic,False,0,-9.0
+PTEN,P60484,TSG,162,D,E,p.Asp162Glu,1.0,Likely pathogenic,False,0,-6.625
+PTEN,P60484,TSG,165,G,E,p.G165E,,,True,6,-8.3125
+PTEN,P60484,TSG,165,G,R,p.Gly165Arg,1.0,Pathogenic/Likely pathogenic,True,5,-11.5
+PTEN,P60484,TSG,165,G,V,p.Gly165Val,1.0,Pathogenic/Likely pathogenic,False,0,-11.9375
+PTEN,P60484,TSG,166,V,E,p.Val166Glu,1.0,Likely pathogenic,False,0,-11.75
+PTEN,P60484,TSG,167,T,N,p.Thr167Asn,1.0,Likely pathogenic,False,0,-11.1875
+PTEN,P60484,TSG,170,S,G,p.S170G,,,True,1,-10.6875
+PTEN,P60484,TSG,170,S,I,p.Ser170Ile,1.0,Pathogenic,True,1,-13.9375
+PTEN,P60484,TSG,170,S,N,p.Ser170Asn,1.0,Likely pathogenic,True,6,-11.8125
+PTEN,P60484,TSG,170,S,R,p.Ser170Arg,1.0,Pathogenic,False,0,-12.96875
+PTEN,P60484,TSG,170,S,T,p.Ser170Thr,1.0,Likely pathogenic,False,0,-9.9375
+PTEN,P60484,TSG,171,Q,E,p.Gln171Glu,1.0,Likely pathogenic,False,0,-12.625
+PTEN,P60484,TSG,171,Q,K,p.Gln171Lys,1.0,Pathogenic,True,1,-12.75
+PTEN,P60484,TSG,171,Q,R,p.Gln171Arg,1.0,Likely pathogenic,True,2,-13.953125
+PTEN,P60484,TSG,173,R,C,p.Arg173Cys,1.0,Pathogenic,True,14,-10.3125
+PTEN,P60484,TSG,173,R,G,p.Arg173Gly,1.0,Pathogenic,False,0,-12.0625
+PTEN,P60484,TSG,173,R,H,p.Arg173His,1.0,Pathogenic/Likely pathogenic,True,17,-9.5
+PTEN,P60484,TSG,173,R,L,p.Arg173Leu,1.0,Likely pathogenic,False,0,-10.8125
+PTEN,P60484,TSG,173,R,P,p.Arg173Pro,1.0,Pathogenic,True,1,-13.375
+PTEN,P60484,TSG,174,Y,C,p.Tyr174Cys,1.0,Likely pathogenic,False,0,-9.4375
+PTEN,P60484,TSG,174,Y,D,p.Tyr174Asp,1.0,Pathogenic,True,1,-12.71875
+PTEN,P60484,TSG,174,Y,H,p.Y174H,,,True,1,-8.5
+PTEN,P60484,TSG,174,Y,N,p.Tyr174Asn,1.0,Likely pathogenic,False,0,-10.3125
+PTEN,P60484,TSG,175,V,M,p.Val175Met,1.0,Pathogenic,False,0,-8.1875
+PTEN,P60484,TSG,177,Y,C,p.Tyr177Cys,1.0,Likely pathogenic,True,1,-7.5
+PTEN,P60484,TSG,177,Y,D,p.Y177D,,,True,1,-11.21875
+PTEN,P60484,TSG,177,Y,F,p.Y177F,,,True,1,-5.0625
+PTEN,P60484,TSG,177,Y,H,p.Tyr177His,1.0,Likely pathogenic,False,0,-6.6875
+PTEN,P60484,TSG,177,Y,N,p.Tyr177Asn,1.0,Likely pathogenic,False,0,-8.25
+PTEN,P60484,TSG,178,Y,C,p.Y178C,,,True,1,-9.25
+PTEN,P60484,TSG,178,Y,H,p.Y178H,,,True,1,-7.375
+PTEN,P60484,TSG,178,Y,N,p.Tyr178Asn,1.0,Likely pathogenic,False,0,-10.125
+PTEN,P60484,TSG,181,L,P,p.Leu181Pro,1.0,Pathogenic,False,0,-10.9375
+PTEN,P60484,TSG,195,F,S,p.Phe195Ser,1.0,Likely pathogenic,False,0,-7.5
+PTEN,P60484,TSG,198,M,K,p.Met198Lys,1.0,Likely pathogenic,False,0,-10.09375
+PTEN,P60484,TSG,200,F,S,p.Phe200Ser,1.0,Likely pathogenic,False,0,-9.9375
+PTEN,P60484,TSG,200,F,V,p.Phe200Val,1.0,Likely pathogenic,False,0,-4.125
+PTEN,P60484,TSG,202,T,I,p.Thr202Ile,1.0,Pathogenic,False,0,-2.25
+PTEN,P60484,TSG,204,P,A,p.Pro204Ala,1.0,Pathogenic,False,0,-7.375
+PTEN,P60484,TSG,211,C,W,p.Cys211Trp,1.0,Pathogenic,False,0,-8.625
+PTEN,P60484,TSG,221,K,E,p.Lys221Glu,1.0,Likely pathogenic,False,0,-4.5625
+PTEN,P60484,TSG,229,S,T,p.Ser229Thr,0.0,Likely benign,False,0,0.125
+PTEN,P60484,TSG,233,R,Q,p.R233Q,,,True,1,-0.625
+PTEN,P60484,TSG,241,F,L,p.Phe241Leu,1.0,Likely pathogenic,False,0,-0.625
+PTEN,P60484,TSG,241,F,S,p.Phe241Ser,1.0,Likely pathogenic,False,0,-5.0
+PTEN,P60484,TSG,246,P,L,p.Pro246Leu,1.0,Pathogenic,False,0,-3.125
+PTEN,P60484,TSG,247,L,F,p.L247F,,,True,1,-2.6875
+PTEN,P60484,TSG,247,L,S,p.Leu247Ser,1.0,Likely pathogenic,False,0,-4.9375
+PTEN,P60484,TSG,249,V,G,p.Val249Gly,1.0,Likely pathogenic,False,0,-8.375
+PTEN,P60484,TSG,251,G,A,p.G251A,,,True,1,-5.75
+PTEN,P60484,TSG,251,G,D,p.G251D,,,True,1,-3.0625
+PTEN,P60484,TSG,251,G,V,p.Gly251Val,1.0,Likely pathogenic,True,4,-9.125
+PTEN,P60484,TSG,252,D,G,p.Asp252Gly,1.0,Pathogenic,False,0,-11.15625
+PTEN,P60484,TSG,252,D,V,p.Asp252Val,1.0,Pathogenic/Likely pathogenic,False,0,-11.3125
+PTEN,P60484,TSG,253,I,N,p.Ile253Asn,1.0,Pathogenic/Likely pathogenic,False,0,-9.375
+PTEN,P60484,TSG,254,K,T,p.Lys254Thr,1.0,Likely pathogenic,False,0,-8.25
+PTEN,P60484,TSG,255,V,E,p.Val255Glu,1.0,Likely pathogenic,False,0,-14.1875
+PTEN,P60484,TSG,255,V,G,p.Val255Gly,1.0,Likely pathogenic,False,0,-9.375
+PTEN,P60484,TSG,267,K,N,p.Lys267Asn,1.0,Pathogenic,False,0,-5.1875
+PTEN,P60484,TSG,272,H,P,p.His272Pro,1.0,Likely pathogenic,False,0,-11.65625
+PTEN,P60484,TSG,274,W,L,p.Trp274Leu,1.0,Pathogenic/Likely pathogenic,False,0,-7.5
+PTEN,P60484,TSG,274,W,S,p.W274S,,,True,1,-6.1875
+PTEN,P60484,TSG,276,N,S,p.Asn276Ser,1.0,Pathogenic,False,0,-7.1875
+PTEN,P60484,TSG,277,T,A,p.Thr277Ala,1.0,Pathogenic,True,1,-6.1875
+PTEN,P60484,TSG,277,T,I,p.Thr277Ile,1.0,Pathogenic,True,3,-8.25
+PTEN,P60484,TSG,277,T,N,p.T277N,,,True,1,-7.625
+PTEN,P60484,TSG,277,T,R,p.Thr277Arg,1.0,Likely pathogenic,False,0,-10.8125
+PTEN,P60484,TSG,294,S,R,p.Ser294Arg,0.0,Likely benign,False,0,-0.875
+PTEN,P60484,TSG,298,Q,E,p.Gln298Glu,0.0,Likely benign,False,0,1.25
+PTEN,P60484,TSG,310,D,G,p.Asp310Gly,1.0,Pathogenic/Likely pathogenic,False,0,-0.625
+PTEN,P60484,TSG,316,L,P,p.Leu316Pro,1.0,Likely pathogenic,False,0,-2.6875
+PTEN,P60484,TSG,320,L,S,p.Leu320Ser,1.0,Likely pathogenic,True,1,-9.375
+PTEN,P60484,TSG,320,L,V,p.L320V,,,True,1,-4.25
+PTEN,P60484,TSG,326,D,G,p.Asp326Gly,1.0,Likely pathogenic,False,0,-8.84375
+PTEN,P60484,TSG,326,D,H,p.Asp326His,1.0,Likely pathogenic,False,0,-9.125
+PTEN,P60484,TSG,326,D,N,p.Asp326Asn,1.0,Pathogenic,False,0,-6.1875
+PTEN,P60484,TSG,335,R,G,p.R335G,,,True,1,-3.000000238418579
+PTEN,P60484,TSG,335,R,P,p.R335P,,,True,1,-2.750000238418579
+PTEN,P60484,TSG,342,K,N,p.Lys342Asn,1.0,Likely pathogenic,False,0,-2.875
+PTEN,P60484,TSG,345,L,P,p.Leu345Pro,1.0,Pathogenic,False,0,-9.0625
+PTEN,P60484,TSG,346,Y,C,p.Y346C,,,True,1,-3.125
+PTEN,P60484,TSG,346,Y,D,p.Y346D,,,True,2,-6.9375
+PTEN,P60484,TSG,346,Y,H,p.Y346H,,,True,1,-2.0
+PTEN,P60484,TSG,354,P,Q,p.Pro354Gln,0.0,Likely benign,False,0,-1.125
+PTEN,P60484,TSG,354,P,S,p.Pro354Ser,0.0,Likely benign,False,0,0.0
+PTEN,P60484,TSG,360,S,G,p.Ser360Gly,0.0,Likely benign,False,0,-1.3125
+TP53,P04637,TSG,4,P,L,p.Pro4Leu,0.0,Likely benign,False,0,-0.375
+TP53,P04637,TSG,4,P,Q,p.Pro4Gln,0.0,Likely benign,False,0,-0.5
+TP53,P04637,TSG,7,D,E,p.Asp7Glu,0.0,Likely benign,False,0,0.25
+TP53,P04637,TSG,8,P,L,p.Pro8Leu,0.0,Likely benign,False,0,-0.37499988079071045
+TP53,P04637,TSG,8,P,R,p.Pro8Arg,0.0,Likely benign,False,0,-1.6874998807907104
+TP53,P04637,TSG,10,V,I,p.Val10Ile,0.0,Benign,False,0,-1.375
+TP53,P04637,TSG,10,V,L,p.Val10Leu,0.0,Likely benign,False,0,1.375
+TP53,P04637,TSG,21,D,A,p.Asp21Ala,0.0,Likely benign,False,0,-0.25
+TP53,P04637,TSG,29,N,D,p.Asn29Asp,0.0,Likely benign,False,0,1.375
+TP53,P04637,TSG,32,L,V,p.Leu32Val,0.0,Likely benign,False,0,-1.0
+TP53,P04637,TSG,35,L,F,p.Leu35Phe,0.0,Likely benign,False,0,-1.3125
+TP53,P04637,TSG,36,P,Q,p.Pro36Gln,0.0,Benign,False,0,-0.75
+TP53,P04637,TSG,47,P,S,p.Pro47Ser,0.0,Benign,False,0,-0.375
+TP53,P04637,TSG,48,D,E,p.Asp48Glu,0.0,Likely benign,False,0,1.3124998807907104
+TP53,P04637,TSG,48,D,G,p.Asp48Gly,0.0,Likely benign,False,0,0.75
+TP53,P04637,TSG,49,D,H,p.Asp49His,0.0,Benign,False,0,-0.4375
+TP53,P04637,TSG,49,D,N,p.Asp49Asn,0.0,Benign,False,0,0.0
+TP53,P04637,TSG,50,I,T,p.Ile50Thr,0.0,Likely benign,False,0,-1.3125
+TP53,P04637,TSG,57,D,V,p.Asp57Val,0.0,Likely benign,False,0,0.3125
+TP53,P04637,TSG,58,P,A,p.Pro58Ala,0.0,Likely benign,False,0,-0.7499998807907104
+TP53,P04637,TSG,59,G,D,p.Gly59Asp,0.0,Likely benign,False,0,-0.9375
+TP53,P04637,TSG,62,E,G,p.Glu62Gly,0.0,Likely benign,False,0,0.375
+TP53,P04637,TSG,63,A,G,p.Ala63Gly,0.0,Likely benign,False,0,-0.375
+TP53,P04637,TSG,63,A,T,p.Ala63Thr,0.0,Likely benign,False,0,-0.875
+TP53,P04637,TSG,63,A,V,p.Ala63Val,0.0,Benign,False,0,-0.75
+TP53,P04637,TSG,66,M,V,p.Met66Val,0.0,Likely benign,False,0,2.3125
+TP53,P04637,TSG,72,P,A,p.Pro72Ala,0.0,Likely benign,False,0,0.0
+TP53,P04637,TSG,72,P,H,p.Pro72His,0.0,Benign,False,0,-3.874999761581421
+TP53,P04637,TSG,72,P,R,p.Pro72Arg,0.0,Benign/Likely benign,False,0,-3.374999761581421
+TP53,P04637,TSG,73,V,E,p.Val73Glu,0.0,Likely benign,False,0,-0.25
+TP53,P04637,TSG,73,V,M,p.Val73Met,0.0,Benign,False,0,-2.3125
+TP53,P04637,TSG,74,A,V,p.Ala74Val,0.0,Likely benign,False,0,-2.25
+TP53,P04637,TSG,75,P,S,p.Pro75Ser,0.0,Likely benign,False,0,-3.0
+TP53,P04637,TSG,76,A,G,p.Ala76Gly,0.0,Benign,False,0,-3.6875
+TP53,P04637,TSG,79,A,V,p.Ala79Val,0.0,Likely benign,False,0,-2.5
+TP53,P04637,TSG,82,P,L,p.Pro82Leu,0.0,Likely benign,False,0,-3.375
+TP53,P04637,TSG,83,A,P,p.Ala83Pro,0.0,Likely benign,False,0,-2.0
+TP53,P04637,TSG,84,A,T,p.Ala84Thr,0.0,Likely benign,False,0,-2.625
+TP53,P04637,TSG,92,P,S,p.Pro92Ser,0.0,Likely benign,False,0,-0.6875
+TP53,P04637,TSG,94,S,A,p.Ser94Ala,0.0,Likely benign,False,0,0.125
+TP53,P04637,TSG,94,S,L,p.Ser94Leu,0.0,Likely benign,False,0,0.0625
+TP53,P04637,TSG,95,S,T,p.Ser95Thr,0.0,Likely benign,False,0,-0.75
+TP53,P04637,TSG,104,Q,H,p.Q104H,,,True,1,-1.312500238418579
+TP53,P04637,TSG,105,G,C,p.G105C,,,True,13,-8.5625
+TP53,P04637,TSG,105,G,D,p.G105D,,,True,4,-6.25
+TP53,P04637,TSG,105,G,G,p.G105G,,,True,1,0.0
+TP53,P04637,TSG,105,G,R,p.Gly105Arg,1.0,Pathogenic/Likely pathogenic,True,2,-8.0625
+TP53,P04637,TSG,105,G,S,p.Gly105Ser,1.0,Pathogenic/Likely pathogenic,True,2,-6.4375
+TP53,P04637,TSG,105,G,V,p.G105V,,,True,6,-9.25
+TP53,P04637,TSG,106,S,R,p.Ser106Arg,1.0,Pathogenic,False,0,-1.1875
+TP53,P04637,TSG,107,Y,D,p.Y107D,,,True,6,-4.0
+TP53,P04637,TSG,107,Y,H,p.Tyr107His,0.0,Benign,False,0,0.625
+TP53,P04637,TSG,107,Y,Y,p.Y107Y,,,True,1,0.0
+TP53,P04637,TSG,108,G,S,p.Gly108Ser,0.0,Likely benign,False,0,-2.375
+TP53,P04637,TSG,109,F,C,p.Phe109Cys,1.0,Likely pathogenic,True,5,-6.75
+TP53,P04637,TSG,109,F,F,p.F109F,,,True,1,0.0
+TP53,P04637,TSG,109,F,I,p.Phe109Ile,1.0,Likely pathogenic,True,1,-5.9375
+TP53,P04637,TSG,109,F,S,p.F109S,,,True,6,-8.0
+TP53,P04637,TSG,109,F,V,p.F109V,,,True,3,-6.125
+TP53,P04637,TSG,110,R,C,p.R110C,,,True,6,-4.625
+TP53,P04637,TSG,110,R,G,p.Arg110Gly,1.0,Likely pathogenic,False,0,-5.4375
+TP53,P04637,TSG,110,R,H,p.Arg110His,0.0,Likely benign,True,1,-2.5
+TP53,P04637,TSG,110,R,L,p.Arg110Leu,1.0,Pathogenic,True,25,-6.5
+TP53,P04637,TSG,110,R,P,p.Arg110Pro,1.0,Pathogenic,True,11,-9.625
+TP53,P04637,TSG,111,L,M,p.L111M,,,True,1,-3.125
+TP53,P04637,TSG,111,L,P,p.Leu111Pro,1.0,Pathogenic,True,7,-6.5
+TP53,P04637,TSG,111,L,Q,p.Leu111Gln,1.0,Pathogenic,True,4,-6.9375
+TP53,P04637,TSG,111,L,R,p.Leu111Arg,1.0,Pathogenic,True,6,-8.1875
+TP53,P04637,TSG,111,L,V,p.Leu111Val,0.0,Likely benign,False,0,-1.0
+TP53,P04637,TSG,113,F,C,p.Phe113Cys,1.0,Pathogenic,True,6,-6.875
+TP53,P04637,TSG,113,F,F,p.F113F,,,True,1,0.0
+TP53,P04637,TSG,113,F,I,p.Phe113Ile,1.0,Pathogenic/Likely pathogenic,False,0,-5.8125
+TP53,P04637,TSG,113,F,L,p.Phe113Leu,1.0,Pathogenic,True,1,-4.25
+TP53,P04637,TSG,113,F,P,p.F113P,,,True,1,-9.0
+TP53,P04637,TSG,113,F,S,p.F113S,,,True,2,-7.25
+TP53,P04637,TSG,113,F,V,p.F113V,,,True,6,-6.0625
+TP53,P04637,TSG,115,H,R,p.His115Arg,0.0,Likely benign,False,0,1.0
+TP53,P04637,TSG,118,T,I,p.Thr118Ile,0.0,Likely benign,False,0,-4.1875
+TP53,P04637,TSG,120,K,E,p.K120E,,,True,5,-8.25
+TP53,P04637,TSG,120,K,M,p.K120M,,,True,1,-8.1875
+TP53,P04637,TSG,120,K,N,p.K120N,,,True,2,-6.6875
+TP53,P04637,TSG,122,V,M,p.Val122Met,0.0,Likely benign,False,0,-4.9375
+TP53,P04637,TSG,124,C,R,p.Cys124Arg,1.0,Likely pathogenic,False,0,-5.5
+TP53,P04637,TSG,124,C,S,p.Cys124Ser,0.0,Likely benign,False,0,-0.5000000596046448
+TP53,P04637,TSG,124,C,W,p.Cys124Trp,0.0,Likely benign,False,0,-5.0625
+TP53,P04637,TSG,125,T,A,p.T125A,,,True,2,-5.9375
+TP53,P04637,TSG,125,T,K,p.Thr125Lys,1.0,Pathogenic,True,3,-9.0
+TP53,P04637,TSG,125,T,M,p.T125M,,,True,16,-6.625
+TP53,P04637,TSG,125,T,P,p.T125P,,,True,3,-8.1875
+TP53,P04637,TSG,125,T,R,p.Thr125Arg,1.0,Pathogenic/Likely pathogenic,True,6,-9.3125
+TP53,P04637,TSG,126,Y,C,p.Y126C,,,True,11,-6.6875
+TP53,P04637,TSG,126,Y,D,p.Tyr126Asp,1.0,Pathogenic/Likely pathogenic,True,8,-9.5
+TP53,P04637,TSG,126,Y,H,p.Y126H,,,True,2,-4.875
+TP53,P04637,TSG,126,Y,N,p.Y126N,,,True,2,-8.625
+TP53,P04637,TSG,126,Y,S,p.Y126S,,,True,3,-8.125
+TP53,P04637,TSG,127,S,C,p.Ser127Cys,1.0,Likely pathogenic,True,1,-5.125
+TP53,P04637,TSG,127,S,F,p.Ser127Phe,1.0,Pathogenic/Likely pathogenic,True,31,-7.5625
+TP53,P04637,TSG,127,S,P,p.Ser127Pro,1.0,Likely pathogenic,True,4,-9.25
+TP53,P04637,TSG,127,S,S,p.S127S,,,True,1,0.0
+TP53,P04637,TSG,127,S,T,p.Ser127Thr,1.0,Likely pathogenic,True,1,-7.1875
+TP53,P04637,TSG,127,S,Y,p.Ser127Tyr,1.0,Pathogenic,True,10,-8.375
+TP53,P04637,TSG,129,A,D,p.Ala129Asp,0.0,Benign,False,0,-0.5
+TP53,P04637,TSG,130,L,F,p.L130F,,,True,10,-4.625
+TP53,P04637,TSG,130,L,H,p.Leu130His,1.0,Pathogenic,True,1,-4.5625
+TP53,P04637,TSG,130,L,P,p.Leu130Pro,1.0,Pathogenic,True,2,-8.0625
+TP53,P04637,TSG,130,L,R,p.L130R,,,True,4,-6.125
+TP53,P04637,TSG,130,L,V,p.L130V,,,True,13,-5.5
+TP53,P04637,TSG,131,N,H,p.Asn131His,1.0,Likely pathogenic,False,0,-3.875
+TP53,P04637,TSG,131,N,I,p.Asn131Ile,1.0,Pathogenic/Likely pathogenic,True,8,-9.375
+TP53,P04637,TSG,131,N,K,p.N131K,,,True,1,-0.9999999403953552
+TP53,P04637,TSG,131,N,N,p.N131N,,,True,1,0.0
+TP53,P04637,TSG,131,N,S,p.N131S,,,True,3,-3.625
+TP53,P04637,TSG,132,K,E,p.K132E,,,True,14,-9.9375
+TP53,P04637,TSG,132,K,M,p.K132M,,,True,5,-7.375
+TP53,P04637,TSG,132,K,N,p.Lys132Asn,1.0,Pathogenic/Likely pathogenic,True,30,-8.6875
+TP53,P04637,TSG,132,K,Q,p.K132Q,,,True,2,-7.3125
+TP53,P04637,TSG,132,K,R,p.Lys132Arg,1.0,Pathogenic/Likely pathogenic,True,27,-4.5625
+TP53,P04637,TSG,132,K,T,p.K132T,,,True,4,-6.3125
+TP53,P04637,TSG,133,M,I,p.M133I,,,True,1,0.0625
+TP53,P04637,TSG,133,M,K,p.M133K,,,True,5,-6.53125
+TP53,P04637,TSG,133,M,R,p.M133R,,,True,3,-3.8125
+TP53,P04637,TSG,133,M,T,p.Met133Thr,1.0,Pathogenic,True,1,-4.4375
+TP53,P04637,TSG,134,F,C,p.Phe134Cys,1.0,Likely pathogenic,True,4,-6.8125
+TP53,P04637,TSG,134,F,I,p.F134I,,,True,2,-8.3125
+TP53,P04637,TSG,134,F,L,p.F134L,,,True,12,-6.4375
+TP53,P04637,TSG,134,F,S,p.F134S,,,True,1,-7.4375
+TP53,P04637,TSG,134,F,V,p.F134V,,,True,5,-8.6875
+TP53,P04637,TSG,135,C,F,p.Cys135Phe,1.0,Pathogenic/Likely pathogenic,True,24,-6.25
+TP53,P04637,TSG,135,C,G,p.Cys135Gly,1.0,Pathogenic,True,2,-7.9375
+TP53,P04637,TSG,135,C,R,p.Cys135Arg,1.0,Pathogenic/Likely pathogenic,True,9,-9.0
+TP53,P04637,TSG,135,C,S,p.Cys135Ser,1.0,Likely pathogenic,True,4,-6.5
+TP53,P04637,TSG,135,C,W,p.C135W,,,True,4,-7.5
+TP53,P04637,TSG,135,C,Y,p.C135Y,,,True,27,-6.375
+TP53,P04637,TSG,136,Q,E,p.Q136E,,,True,10,-5.25
+TP53,P04637,TSG,136,Q,H,p.Q136H,,,True,1,-3.625
+TP53,P04637,TSG,136,Q,L,p.Q136L,,,True,1,-4.625
+TP53,P04637,TSG,136,Q,P,p.Q136P,,,True,3,-5.6875
+TP53,P04637,TSG,138,A,P,p.Ala138Pro,1.0,Likely pathogenic,False,0,-5.625
+TP53,P04637,TSG,138,A,V,p.Ala138Val,1.0,Likely pathogenic,False,0,-4.125
+TP53,P04637,TSG,141,C,F,p.C141F,,,True,1,-4.25
+TP53,P04637,TSG,141,C,G,p.C141G,,,True,4,-4.625
+TP53,P04637,TSG,141,C,R,p.C141R,,,True,5,-6.375
+TP53,P04637,TSG,141,C,S,p.C141S,,,True,1,-2.125
+TP53,P04637,TSG,141,C,W,p.Cys141Trp,1.0,Pathogenic,True,9,-5.8125
+TP53,P04637,TSG,141,C,Y,p.Cys141Tyr,1.0,Pathogenic/Likely pathogenic,True,25,-5.125
+TP53,P04637,TSG,143,V,A,p.Val143Ala,1.0,Pathogenic,True,7,-5.125
+TP53,P04637,TSG,143,V,E,p.V143E,,,True,2,-9.4375
+TP53,P04637,TSG,143,V,G,p.Val143Gly,1.0,Pathogenic/Likely pathogenic,True,5,-9.0
+TP53,P04637,TSG,143,V,M,p.Val143Met,1.0,Pathogenic/Likely pathogenic,True,12,-4.625
+TP53,P04637,TSG,144,Q,H,p.Q144H,,,True,1,-3.375
+TP53,P04637,TSG,144,Q,L,p.Q144L,,,True,2,-4.4375
+TP53,P04637,TSG,144,Q,P,p.Q144P,,,True,3,-5.5
+TP53,P04637,TSG,146,W,C,p.W146C,,,True,1,-0.875
+TP53,P04637,TSG,146,W,G,p.W146G,,,True,1,-3.3125
+TP53,P04637,TSG,146,W,S,p.W146S,,,True,1,-0.25
+TP53,P04637,TSG,147,V,G,p.Val147Gly,1.0,Pathogenic/Likely pathogenic,False,0,-7.75
+TP53,P04637,TSG,151,P,A,p.Pro151Ala,1.0,Pathogenic,True,11,-5.3125
+TP53,P04637,TSG,151,P,F,p.Pro151Phe,1.0,Likely pathogenic,True,1,-9.1875
+TP53,P04637,TSG,151,P,H,p.P151H,,,True,13,-9.0
+TP53,P04637,TSG,151,P,L,p.P151L,,,True,1,-5.375
+TP53,P04637,TSG,151,P,R,p.Pro151Arg,1.0,Pathogenic/Likely pathogenic,True,9,-9.8125
+TP53,P04637,TSG,151,P,S,p.Pro151Ser,1.0,Pathogenic,True,36,-7.375
+TP53,P04637,TSG,151,P,T,p.Pro151Thr,1.0,Pathogenic/Likely pathogenic,True,8,-7.5625
+TP53,P04637,TSG,152,P,K,p.P152K,,,True,1,-6.375
+TP53,P04637,TSG,152,P,L,p.Pro152Leu,1.0,Pathogenic,True,28,-4.25
+TP53,P04637,TSG,152,P,P,p.P152P,,,True,2,0.0
+TP53,P04637,TSG,152,P,Q,p.P152Q,,,True,1,-4.9375
+TP53,P04637,TSG,152,P,R,p.Pro152Arg,1.0,Pathogenic/Likely pathogenic,True,2,-5.5625
+TP53,P04637,TSG,152,P,S,p.P152S,,,True,2,-4.375
+TP53,P04637,TSG,152,P,T,p.P152T,,,True,2,-5.6875
+TP53,P04637,TSG,154,G,C,p.G154C,,,True,1,-6.5625
+TP53,P04637,TSG,154,G,D,p.G154D,,,True,1,-4.6875
+TP53,P04637,TSG,154,G,V,p.G154V,,,True,23,-7.8125
+TP53,P04637,TSG,155,T,I,p.T155I,,,True,2,-4.125
+TP53,P04637,TSG,155,T,N,p.Thr155Asn,1.0,Pathogenic/Likely pathogenic,True,8,-7.4375
+TP53,P04637,TSG,155,T,P,p.T155P,,,True,7,-8.5625
+TP53,P04637,TSG,155,T,T,p.T155T,,,True,1,0.0
+TP53,P04637,TSG,156,R,P,p.Arg156Pro,1.0,Pathogenic/Likely pathogenic,False,0,-4.0
+TP53,P04637,TSG,157,V,A,p.V157A,,,True,1,-4.875
+TP53,P04637,TSG,157,V,D,p.V157D,,,True,1,-11.5
+TP53,P04637,TSG,157,V,F,p.Val157Phe,1.0,Pathogenic/Likely pathogenic,True,67,-5.25
+TP53,P04637,TSG,157,V,G,p.Val157Gly,1.0,Likely pathogenic,True,4,-9.5
+TP53,P04637,TSG,157,V,I,p.Val157Ile,0.0,Likely benign,False,0,-0.125
+TP53,P04637,TSG,157,V,L,p.V157L,,,True,3,-1.0
+TP53,P04637,TSG,157,V,V,p.V157V,,,True,1,0.0
+TP53,P04637,TSG,158,R,C,p.R158C,,,True,5,-5.25
+TP53,P04637,TSG,158,R,F,p.R158F,,,True,1,-9.1875
+TP53,P04637,TSG,158,R,G,p.Arg158Gly,1.0,Pathogenic,True,9,-7.9375
+TP53,P04637,TSG,158,R,H,p.Arg158His,1.0,Pathogenic/Likely pathogenic,True,36,-5.375
+TP53,P04637,TSG,158,R,L,p.Arg158Leu,1.0,Pathogenic/Likely pathogenic,True,42,-5.75
+TP53,P04637,TSG,158,R,P,p.Arg158Pro,1.0,Pathogenic,True,11,-10.4375
+TP53,P04637,TSG,158,R,S,p.Arg158Ser,1.0,Pathogenic,True,2,-6.6875
+TP53,P04637,TSG,159,A,A,p.A159A,,,True,1,0.0
+TP53,P04637,TSG,159,A,D,p.Ala159Asp,1.0,Pathogenic/Likely pathogenic,True,1,-11.625
+TP53,P04637,TSG,159,A,P,p.A159P,,,True,23,-8.375
+TP53,P04637,TSG,159,A,V,p.Ala159Val,1.0,Pathogenic/Likely pathogenic,True,27,-3.999999761581421
+TP53,P04637,TSG,160,M,I,p.Met160Ile,0.0,Likely benign,False,0,-2.375
+TP53,P04637,TSG,161,A,D,p.A161D,,,True,7,-9.375
+TP53,P04637,TSG,161,A,P,p.A161P,,,True,1,-1.375
+TP53,P04637,TSG,161,A,S,p.A161S,,,True,4,-4.0
+TP53,P04637,TSG,161,A,T,p.Ala161Thr,1.0,Pathogenic/Likely pathogenic,True,12,-3.750000238418579
+TP53,P04637,TSG,161,A,V,p.A161V,,,True,2,-2.75
+TP53,P04637,TSG,163,Y,C,p.Tyr163Cys,1.0,Pathogenic,True,54,-5.8125
+TP53,P04637,TSG,163,Y,D,p.Y163D,,,True,3,-9.4375
+TP53,P04637,TSG,163,Y,H,p.Tyr163His,1.0,Pathogenic,True,11,-5.6875
+TP53,P04637,TSG,163,Y,N,p.Y163N,,,True,9,-7.75
+TP53,P04637,TSG,164,K,E,p.Lys164Glu,1.0,Pathogenic,True,9,-7.9375
+TP53,P04637,TSG,165,Q,H,p.Q165H,,,True,1,-2.8125
+TP53,P04637,TSG,165,Q,L,p.Gln165Leu,1.0,Pathogenic,False,0,-2.9375
+TP53,P04637,TSG,166,S,T,p.Ser166Thr,0.0,Likely benign,False,0,0.0625
+TP53,P04637,TSG,168,H,L,p.His168Leu,1.0,Pathogenic,True,4,-5.375
+TP53,P04637,TSG,168,H,P,p.His168Pro,1.0,Likely pathogenic,True,2,-8.25
+TP53,P04637,TSG,168,H,R,p.H168R,,,True,12,-4.9375
+TP53,P04637,TSG,168,H,Y,p.H168Y,,,True,1,-2.875
+TP53,P04637,TSG,170,T,M,p.Thr170Met,0.0,Likely benign,False,0,-3.187500238418579
+TP53,P04637,TSG,171,E,D,p.Glu171Asp,1.0,Pathogenic,False,0,-2.5
+TP53,P04637,TSG,171,E,G,p.Glu171Gly,1.0,Pathogenic,False,0,-5.75
+TP53,P04637,TSG,171,E,K,p.Glu171Lys,0.0,Likely benign,False,0,-6.625
+TP53,P04637,TSG,172,V,D,p.V172D,,,True,5,-9.875
+TP53,P04637,TSG,172,V,F,p.V172F,,,True,12,-9.4375
+TP53,P04637,TSG,172,V,G,p.V172G,,,True,1,-7.8125
+TP53,P04637,TSG,173,V,A,p.Val173Ala,1.0,Pathogenic/Likely pathogenic,True,4,-6.375
+TP53,P04637,TSG,173,V,E,p.V173E,,,True,1,-9.5625
+TP53,P04637,TSG,173,V,G,p.V173G,,,True,4,-9.0
+TP53,P04637,TSG,173,V,L,p.Val173Leu,1.0,Pathogenic/Likely pathogenic,True,42,-6.625
+TP53,P04637,TSG,173,V,M,p.Val173Met,1.0,Pathogenic,True,27,-6.5
+TP53,P04637,TSG,175,R,C,p.R175C,,,True,8,-5.75
+TP53,P04637,TSG,175,R,G,p.Arg175Gly,1.0,Pathogenic,True,14,-8.25
+TP53,P04637,TSG,175,R,H,p.Arg175His,1.0,Pathogenic,True,386,-5.5
+TP53,P04637,TSG,175,R,L,p.Arg175Leu,1.0,Likely pathogenic,True,8,-6.6875
+TP53,P04637,TSG,176,C,C,p.C176C,,,True,1,0.0
+TP53,P04637,TSG,176,C,F,p.Cys176Phe,1.0,Pathogenic/Likely pathogenic,True,54,-9.1875
+TP53,P04637,TSG,176,C,G,p.C176G,,,True,5,-10.0
+TP53,P04637,TSG,176,C,R,p.Cys176Arg,1.0,Likely pathogenic,True,5,-10.5625
+TP53,P04637,TSG,176,C,S,p.C176S,,,True,9,-8.125
+TP53,P04637,TSG,176,C,W,p.C176W,,,True,7,-10.4375
+TP53,P04637,TSG,176,C,Y,p.Cys176Tyr,1.0,Pathogenic/Likely pathogenic,True,30,-9.4375
+TP53,P04637,TSG,177,P,R,p.Pro177Arg,1.0,Pathogenic/Likely pathogenic,False,0,-5.625
+TP53,P04637,TSG,178,H,D,p.His178Asp,1.0,Pathogenic,True,5,-6.5
+TP53,P04637,TSG,178,H,H,p.H178H,,,True,1,0.0
+TP53,P04637,TSG,178,H,N,p.H178N,,,True,1,-1.7500001192092896
+TP53,P04637,TSG,178,H,P,p.H178P,,,True,3,-6.75
+TP53,P04637,TSG,178,H,Q,p.His178Gln,1.0,Pathogenic/Likely pathogenic,True,2,-3.375
+TP53,P04637,TSG,179,H,D,p.His179Asp,1.0,Pathogenic/Likely pathogenic,True,8,-11.0
+TP53,P04637,TSG,179,H,L,p.H179L,,,True,14,-9.6875
+TP53,P04637,TSG,179,H,N,p.H179N,,,True,8,-9.125
+TP53,P04637,TSG,179,H,P,p.H179P,,,True,3,-10.5
+TP53,P04637,TSG,179,H,Q,p.His179Gln,1.0,Pathogenic,True,12,-8.5
+TP53,P04637,TSG,179,H,R,p.His179Arg,1.0,Pathogenic/Likely pathogenic,True,63,-8.8125
+TP53,P04637,TSG,179,H,Y,p.His179Tyr,1.0,Pathogenic/Likely pathogenic,True,41,-7.625
+TP53,P04637,TSG,180,E,K,p.Glu180Lys,1.0,Likely pathogenic,False,0,-4.125
+TP53,P04637,TSG,181,R,C,p.Arg181Cys,1.0,Likely pathogenic,True,9,-4.5625
+TP53,P04637,TSG,181,R,H,p.Arg181His,1.0,Pathogenic/Likely pathogenic,True,9,-3.5625
+TP53,P04637,TSG,181,R,P,p.Arg181Pro,1.0,Pathogenic/Likely pathogenic,True,8,-5.75
+TP53,P04637,TSG,183,S,P,p.Ser183Pro,0.0,Likely benign,False,0,1.2499998807907104
+TP53,P04637,TSG,185,S,N,p.Ser185Asn,0.0,Likely benign,False,0,0.25
+TP53,P04637,TSG,185,S,R,p.Ser185Arg,0.0,Likely benign,False,0,-0.43749988079071045
+TP53,P04637,TSG,186,D,E,p.Asp186Glu,0.0,Likely benign,False,0,-0.375
+TP53,P04637,TSG,186,D,N,p.Asp186Asn,0.0,Likely benign,False,0,-1.5000001192092896
+TP53,P04637,TSG,190,P,L,p.Pro190Leu,1.0,Likely pathogenic,True,12,-2.375
+TP53,P04637,TSG,190,P,R,p.P190R,,,True,1,-3.5
+TP53,P04637,TSG,190,P,S,p.P190S,,,True,1,-1.625
+TP53,P04637,TSG,190,P,T,p.P190T,,,True,3,-2.375
+TP53,P04637,TSG,191,P,R,p.Pro191Arg,0.0,Likely benign,False,0,-1.6874998807907104
+TP53,P04637,TSG,192,Q,H,p.Gln192His,0.0,Likely benign,True,1,1.1249998807907104
+TP53,P04637,TSG,192,Q,L,p.Q192L,,,True,1,-2.5
+TP53,P04637,TSG,193,H,D,p.H193D,,,True,5,-8.8125
+TP53,P04637,TSG,193,H,L,p.H193L,,,True,19,-8.0625
+TP53,P04637,TSG,193,H,N,p.His193Asn,1.0,Pathogenic/Likely pathogenic,True,5,-6.0
+TP53,P04637,TSG,193,H,P,p.His193Pro,1.0,Pathogenic,True,8,-8.0625
+TP53,P04637,TSG,193,H,Q,p.H193Q,,,True,1,-6.1875
+TP53,P04637,TSG,193,H,R,p.His193Arg,1.0,Pathogenic/Likely pathogenic,True,54,-6.5
+TP53,P04637,TSG,193,H,Y,p.His193Tyr,1.0,Pathogenic/Likely pathogenic,True,31,-5.6875
+TP53,P04637,TSG,194,L,F,p.Leu194Phe,1.0,Pathogenic/Likely pathogenic,True,12,-4.875
+TP53,P04637,TSG,194,L,H,p.L194H,,,True,4,-7.375
+TP53,P04637,TSG,194,L,P,p.L194P,,,True,3,-7.4375
+TP53,P04637,TSG,194,L,R,p.Leu194Arg,1.0,Pathogenic,True,30,-7.1875
+TP53,P04637,TSG,195,I,F,p.I195F,,,True,19,-6.1875
+TP53,P04637,TSG,195,I,I,p.I195I,,,True,1,0.0
+TP53,P04637,TSG,195,I,K,p.I195K,,,True,1,-8.9375
+TP53,P04637,TSG,195,I,M,p.I195M,,,True,2,-4.625
+TP53,P04637,TSG,195,I,N,p.I195N,,,True,10,-8.0
+TP53,P04637,TSG,195,I,S,p.I195S,,,True,4,-7.875000476837158
+TP53,P04637,TSG,195,I,T,p.Ile195Thr,1.0,Pathogenic,True,42,-5.375
+TP53,P04637,TSG,196,R,L,p.R196L,,,True,1,-6.5625
+TP53,P04637,TSG,196,R,P,p.Arg196Pro,1.0,Pathogenic/Likely pathogenic,True,8,-6.1875
+TP53,P04637,TSG,196,R,Q,p.R196Q,,,True,1,-5.375
+TP53,P04637,TSG,197,V,E,p.V197E,,,True,3,-7.5625
+TP53,P04637,TSG,197,V,G,p.V197G,,,True,1,-6.6875
+TP53,P04637,TSG,197,V,L,p.V197L,,,True,5,-4.0
+TP53,P04637,TSG,197,V,M,p.Val197Met,1.0,Likely pathogenic,True,3,-4.5
+TP53,P04637,TSG,197,V,V,p.V197V,,,True,5,0.0
+TP53,P04637,TSG,199,G,V,p.Gly199Val,1.0,Likely pathogenic,False,0,-8.125
+TP53,P04637,TSG,204,E,D,p.Glu204Asp,0.0,Likely benign,False,0,-2.625
+TP53,P04637,TSG,205,Y,C,p.Tyr205Cys,1.0,Pathogenic,True,35,-5.5625
+TP53,P04637,TSG,205,Y,D,p.Tyr205Asp,1.0,Pathogenic/Likely pathogenic,True,3,-7.1875
+TP53,P04637,TSG,205,Y,F,p.Y205F,,,True,6,-4.625
+TP53,P04637,TSG,205,Y,H,p.Tyr205His,1.0,Pathogenic/Likely pathogenic,True,8,-5.125
+TP53,P04637,TSG,205,Y,N,p.Y205N,,,True,2,-6.6875
+TP53,P04637,TSG,205,Y,S,p.Y205S,,,True,6,-6.5
+TP53,P04637,TSG,207,D,E,p.Asp207Glu,0.0,Likely benign,False,0,2.1875
+TP53,P04637,TSG,208,D,E,p.D208E,,,True,1,-2.625
+TP53,P04637,TSG,208,D,G,p.D208G,,,True,2,-4.75
+TP53,P04637,TSG,208,D,N,p.D208N,,,True,2,-3.8125
+TP53,P04637,TSG,208,D,V,p.D208V,,,True,7,-6.4375
+TP53,P04637,TSG,209,R,K,p.Arg209Lys,0.0,Likely benign,False,0,0.25
+TP53,P04637,TSG,210,N,S,p.Asn210Ser,0.0,Likely benign,False,0,-0.625
+TP53,P04637,TSG,212,F,S,p.Phe212Ser,0.0,Likely benign,False,0,2.9375
+TP53,P04637,TSG,213,R,G,p.R213G,,,True,4,-7.5625
+TP53,P04637,TSG,213,R,L,p.R213L,,,True,17,-5.5625
+TP53,P04637,TSG,213,R,P,p.Arg213Pro,1.0,Pathogenic/Likely pathogenic,True,2,-7.5625
+TP53,P04637,TSG,213,R,Q,p.Arg213Gln,1.0,Pathogenic/Likely pathogenic,True,25,-3.875
+TP53,P04637,TSG,213,R,W,p.Arg213Trp,1.0,Pathogenic/Likely pathogenic,False,0,-5.4375
+TP53,P04637,TSG,214,H,L,p.His214Leu,1.0,Likely pathogenic,True,2,-3.875
+TP53,P04637,TSG,214,H,P,p.H214P,,,True,1,-3.1875
+TP53,P04637,TSG,214,H,Q,p.H214Q,,,True,2,0.25
+TP53,P04637,TSG,214,H,R,p.His214Arg,1.0,Pathogenic,True,35,-3.0
+TP53,P04637,TSG,215,S,C,p.S215C,,,True,1,-5.375
+TP53,P04637,TSG,215,S,G,p.S215G,,,True,8,-6.3125
+TP53,P04637,TSG,215,S,I,p.S215I,,,True,20,-9.625
+TP53,P04637,TSG,215,S,N,p.S215N,,,True,7,-6.875
+TP53,P04637,TSG,215,S,R,p.S215R,,,True,13,-8.875
+TP53,P04637,TSG,215,S,T,p.S215T,,,True,1,-5.5625
+TP53,P04637,TSG,216,V,E,p.V216E,,,True,4,-9.1875
+TP53,P04637,TSG,216,V,G,p.V216G,,,True,5,-9.3125
+TP53,P04637,TSG,216,V,L,p.V216L,,,True,9,-4.875
+TP53,P04637,TSG,216,V,M,p.Val216Met,1.0,Pathogenic/Likely pathogenic,True,24,-5.625
+TP53,P04637,TSG,218,V,E,p.Val218Glu,1.0,Likely pathogenic,True,1,-7.999999523162842
+TP53,P04637,TSG,218,V,G,p.V218G,,,True,5,-7.8125
+TP53,P04637,TSG,218,V,L,p.V218L,,,True,1,-4.875
+TP53,P04637,TSG,218,V,M,p.V218M,,,True,1,-5.375
+TP53,P04637,TSG,218,V,V,p.V218V,,,True,1,0.0
+TP53,P04637,TSG,220,Y,C,p.Tyr220Cys,1.0,Pathogenic,True,127,-4.6875
+TP53,P04637,TSG,220,Y,D,p.Y220D,,,True,4,-9.1875
+TP53,P04637,TSG,220,Y,F,p.Tyr220Phe,0.0,Likely benign,False,0,-2.375
+TP53,P04637,TSG,220,Y,H,p.Tyr220His,1.0,Pathogenic/Likely pathogenic,True,6,-5.75
+TP53,P04637,TSG,220,Y,N,p.Y220N,,,True,3,-9.0
+TP53,P04637,TSG,220,Y,S,p.Tyr220Ser,1.0,Pathogenic,True,8,-7.6875
+TP53,P04637,TSG,228,D,Y,p.Asp228Tyr,0.0,Likely benign,False,0,-5.5625
+TP53,P04637,TSG,232,I,F,p.I232F,,,True,3,-5.0625
+TP53,P04637,TSG,232,I,I,p.I232I,,,True,1,0.0
+TP53,P04637,TSG,232,I,N,p.Ile232Asn,1.0,Pathogenic/Likely pathogenic,True,3,-7.125
+TP53,P04637,TSG,232,I,S,p.Ile232Ser,1.0,Pathogenic,True,4,-6.75
+TP53,P04637,TSG,232,I,T,p.Ile232Thr,1.0,Pathogenic/Likely pathogenic,True,3,-4.8125
+TP53,P04637,TSG,234,Y,C,p.Tyr234Cys,1.0,Pathogenic/Likely pathogenic,True,42,-1.8749995231628418
+TP53,P04637,TSG,234,Y,D,p.Tyr234Asp,1.0,Pathogenic/Likely pathogenic,True,2,-6.874999523162842
+TP53,P04637,TSG,234,Y,H,p.Tyr234His,1.0,Pathogenic/Likely pathogenic,True,9,-1.6875
+TP53,P04637,TSG,234,Y,N,p.Tyr234Asn,1.0,Pathogenic/Likely pathogenic,True,6,-4.499999523162842
+TP53,P04637,TSG,234,Y,S,p.Y234S,,,True,3,-2.937499523162842
+TP53,P04637,TSG,235,N,S,p.Asn235Ser,0.0,Benign,False,0,0.625
+TP53,P04637,TSG,236,Y,C,p.Tyr236Cys,1.0,Pathogenic/Likely pathogenic,True,40,-5.5625
+TP53,P04637,TSG,236,Y,D,p.Y236D,,,True,5,-10.75
+TP53,P04637,TSG,236,Y,H,p.Tyr236His,1.0,Pathogenic/Likely pathogenic,True,2,-6.0625
+TP53,P04637,TSG,236,Y,N,p.Y236N,,,True,5,-8.375
+TP53,P04637,TSG,236,Y,S,p.Y236S,,,True,2,-5.625
+TP53,P04637,TSG,237,M,I,p.Met237Ile,1.0,Pathogenic/Likely pathogenic,True,55,-4.9375
+TP53,P04637,TSG,237,M,K,p.Met237Lys,1.0,Pathogenic/Likely pathogenic,True,5,-7.6875
+TP53,P04637,TSG,237,M,V,p.M237V,,,True,4,-5.5
+TP53,P04637,TSG,238,C,F,p.Cys238Phe,1.0,Pathogenic/Likely pathogenic,True,23,-10.3125
+TP53,P04637,TSG,238,C,G,p.Cys238Gly,1.0,Pathogenic/Likely pathogenic,True,4,-10.375
+TP53,P04637,TSG,238,C,R,p.Cys238Arg,1.0,Pathogenic/Likely pathogenic,True,5,-10.0
+TP53,P04637,TSG,238,C,S,p.Cys238Ser,1.0,Pathogenic/Likely pathogenic,True,4,-8.9375
+TP53,P04637,TSG,238,C,W,p.Cys238Trp,1.0,Pathogenic/Likely pathogenic,True,1,-10.4375
+TP53,P04637,TSG,238,C,Y,p.Cys238Tyr,1.0,Pathogenic/Likely pathogenic,True,40,-10.0625
+TP53,P04637,TSG,239,N,D,p.N239D,,,True,18,-9.28125
+TP53,P04637,TSG,239,N,H,p.N239H,,,True,1,-5.375
+TP53,P04637,TSG,239,N,K,p.Asn239Lys,1.0,Pathogenic,True,2,-6.9375
+TP53,P04637,TSG,239,N,S,p.Asn239Ser,1.0,Pathogenic/Likely pathogenic,True,19,-5.875
+TP53,P04637,TSG,239,N,T,p.N239T,,,True,1,-7.5625
+TP53,P04637,TSG,240,S,C,p.Ser240Cys,1.0,Likely pathogenic,False,0,-6.8125
+TP53,P04637,TSG,240,S,G,p.Ser240Gly,1.0,Pathogenic/Likely pathogenic,False,0,-7.1875
+TP53,P04637,TSG,240,S,N,p.Ser240Asn,1.0,Pathogenic,False,0,-6.125
+TP53,P04637,TSG,241,S,A,p.Ser241Ala,1.0,Pathogenic/Likely pathogenic,True,2,-5.0625
+TP53,P04637,TSG,241,S,C,p.Ser241Cys,1.0,Pathogenic/Likely pathogenic,True,19,-6.375
+TP53,P04637,TSG,241,S,F,p.Ser241Phe,1.0,Pathogenic/Likely pathogenic,True,51,-7.6875
+TP53,P04637,TSG,241,S,P,p.S241P,,,True,6,-8.625
+TP53,P04637,TSG,241,S,S,p.S241S,,,True,3,0.0
+TP53,P04637,TSG,241,S,T,p.Ser241Thr,1.0,Pathogenic/Likely pathogenic,True,1,-5.125
+TP53,P04637,TSG,241,S,Y,p.Ser241Tyr,1.0,Pathogenic/Likely pathogenic,True,15,-8.3125
+TP53,P04637,TSG,242,C,C,p.C242C,,,True,1,0.0
+TP53,P04637,TSG,242,C,F,p.C242F,,,True,27,-11.0625
+TP53,P04637,TSG,242,C,G,p.C242G,,,True,3,-10.1875
+TP53,P04637,TSG,242,C,R,p.C242R,,,True,2,-9.25
+TP53,P04637,TSG,242,C,S,p.C242S,,,True,9,-9.4375
+TP53,P04637,TSG,242,C,W,p.Cys242Trp,1.0,Pathogenic,True,4,-10.75
+TP53,P04637,TSG,242,C,Y,p.Cys242Tyr,1.0,Pathogenic/Likely pathogenic,True,12,-10.8125
+TP53,P04637,TSG,244,G,A,p.Gly244Ala,1.0,Pathogenic/Likely pathogenic,True,1,-5.3125
+TP53,P04637,TSG,244,G,C,p.G244C,,,True,19,-7.625
+TP53,P04637,TSG,244,G,D,p.Gly244Asp,1.0,Pathogenic/Likely pathogenic,True,21,-6.75
+TP53,P04637,TSG,244,G,F,p.G244F,,,True,1,-11.3125
+TP53,P04637,TSG,244,G,G,p.G244G,,,True,1,0.0
+TP53,P04637,TSG,244,G,R,p.G244R,,,True,1,-7.5625
+TP53,P04637,TSG,244,G,S,p.Gly244Ser,1.0,Pathogenic,True,15,-5.0625
+TP53,P04637,TSG,244,G,V,p.Gly244Val,1.0,Likely pathogenic,True,6,-7.8125
+TP53,P04637,TSG,245,G,A,p.G245A,,,True,3,-7.5625
+TP53,P04637,TSG,245,G,C,p.Gly245Cys,1.0,Pathogenic,True,22,-9.28125
+TP53,P04637,TSG,245,G,D,p.Gly245Asp,1.0,Pathogenic,True,50,-8.9375
+TP53,P04637,TSG,245,G,N,p.G245N,,,True,1,-9.71875
+TP53,P04637,TSG,245,G,R,p.G245R,,,True,7,-8.625
+TP53,P04637,TSG,245,G,S,p.Gly245Ser,1.0,Pathogenic,True,128,-7.5
+TP53,P04637,TSG,245,G,V,p.Gly245Val,1.0,Pathogenic,True,31,-8.9375
+TP53,P04637,TSG,246,M,I,p.Met246Ile,1.0,Likely pathogenic,True,10,-3.8125
+TP53,P04637,TSG,246,M,K,p.Met246Lys,1.0,Likely pathogenic,True,3,-8.375
+TP53,P04637,TSG,246,M,L,p.M246L,,,True,3,-3.125
+TP53,P04637,TSG,246,M,R,p.M246R,,,True,2,-7.75
+TP53,P04637,TSG,246,M,T,p.M246T,,,True,3,-6.125
+TP53,P04637,TSG,246,M,V,p.Met246Val,1.0,Pathogenic/Likely pathogenic,True,16,-3.875
+TP53,P04637,TSG,247,N,I,p.Asn247Ile,1.0,Pathogenic,True,8,-8.6875
+TP53,P04637,TSG,247,N,N,p.N247N,,,True,7,0.0
+TP53,P04637,TSG,248,R,G,p.Arg248Gly,1.0,Pathogenic/Likely pathogenic,True,8,-8.75
+TP53,P04637,TSG,248,R,L,p.Arg248Leu,1.0,Pathogenic,True,21,-8.125
+TP53,P04637,TSG,248,R,P,p.Arg248Pro,1.0,Pathogenic/Likely pathogenic,True,11,-9.625
+TP53,P04637,TSG,248,R,Q,p.Arg248Gln,1.0,Pathogenic,True,292,-7.0
+TP53,P04637,TSG,248,R,R,p.R248R,,,True,6,0.0
+TP53,P04637,TSG,248,R,W,p.Arg248Trp,1.0,Likely pathogenic,True,222,-8.65625
+TP53,P04637,TSG,249,R,G,p.R249G,,,True,15,-9.0625
+TP53,P04637,TSG,249,R,I,p.R249I,,,True,1,-9.75
+TP53,P04637,TSG,249,R,K,p.R249K,,,True,2,-6.5
+TP53,P04637,TSG,249,R,M,p.R249M,,,True,17,-9.6875
+TP53,P04637,TSG,249,R,S,p.Arg249Ser,1.0,Pathogenic/Likely pathogenic,True,45,-8.375
+TP53,P04637,TSG,249,R,T,p.Arg249Thr,1.0,Pathogenic/Likely pathogenic,True,11,-9.375
+TP53,P04637,TSG,249,R,W,p.R249W,,,True,11,-7.875
+TP53,P04637,TSG,250,P,L,p.Pro250Leu,1.0,Pathogenic/Likely pathogenic,True,22,-5.8125
+TP53,P04637,TSG,250,P,P,p.P250P,,,True,1,0.0
+TP53,P04637,TSG,250,P,R,p.P250R,,,True,1,-6.75
+TP53,P04637,TSG,251,I,F,p.Ile251Phe,1.0,Pathogenic/Likely pathogenic,True,5,-6.625
+TP53,P04637,TSG,251,I,I,p.I251I,,,True,1,0.0
+TP53,P04637,TSG,251,I,L,p.Ile251Leu,1.0,Pathogenic/Likely pathogenic,False,0,-5.125
+TP53,P04637,TSG,251,I,M,p.I251M,,,True,1,-6.0
+TP53,P04637,TSG,251,I,N,p.I251N,,,True,5,-9.6875
+TP53,P04637,TSG,251,I,S,p.I251S,,,True,3,-9.25
+TP53,P04637,TSG,253,T,A,p.Thr253Ala,1.0,Pathogenic/Likely pathogenic,False,0,-3.625
+TP53,P04637,TSG,254,I,F,p.I254F,,,True,1,-5.75
+TP53,P04637,TSG,254,I,L,p.I254L,,,True,1,-3.0
+TP53,P04637,TSG,254,I,M,p.I254M,,,True,1,-4.25
+TP53,P04637,TSG,254,I,N,p.Ile254Asn,1.0,Pathogenic,True,1,-8.0625
+TP53,P04637,TSG,254,I,S,p.I254S,,,True,7,-8.125
+TP53,P04637,TSG,254,I,T,p.Ile254Thr,1.0,Pathogenic,False,0,-5.5
+TP53,P04637,TSG,254,I,V,p.Ile254Val,0.0,Likely benign,True,2,-1.125
+TP53,P04637,TSG,255,I,F,p.I255F,,,True,12,-3.5
+TP53,P04637,TSG,255,I,I,p.I255I,,,True,1,0.0
+TP53,P04637,TSG,255,I,N,p.I255N,,,True,7,-9.875
+TP53,P04637,TSG,255,I,S,p.I255S,,,True,6,-8.5625
+TP53,P04637,TSG,255,I,T,p.I255T,,,True,6,-5.875
+TP53,P04637,TSG,257,L,L,p.L257L,,,True,1,0.0
+TP53,P04637,TSG,257,L,P,p.L257P,,,True,4,-9.375
+TP53,P04637,TSG,257,L,Q,p.L257Q,,,True,7,-8.1875
+TP53,P04637,TSG,257,L,R,p.L257R,,,True,4,-9.4375
+TP53,P04637,TSG,257,L,V,p.L257V,,,True,1,-4.75
+TP53,P04637,TSG,258,E,A,p.E258A,,,True,4,-8.5
+TP53,P04637,TSG,258,E,D,p.E258D,,,True,5,-6.875
+TP53,P04637,TSG,258,E,E,p.E258E,,,True,1,0.0
+TP53,P04637,TSG,258,E,G,p.E258G,,,True,4,-8.6875
+TP53,P04637,TSG,258,E,K,p.Glu258Lys,1.0,Likely pathogenic,True,14,-8.5625
+TP53,P04637,TSG,258,E,Q,p.E258Q,,,True,4,-5.875
+TP53,P04637,TSG,258,E,V,p.E258V,,,True,1,-7.25
+TP53,P04637,TSG,259,D,A,p.Asp259Ala,1.0,Pathogenic,False,0,-5.25
+TP53,P04637,TSG,259,D,D,p.D259D,,,True,1,0.0
+TP53,P04637,TSG,259,D,H,p.D259H,,,True,2,-8.5625
+TP53,P04637,TSG,259,D,N,p.D259N,,,True,2,-3.875
+TP53,P04637,TSG,259,D,V,p.D259V,,,True,7,-8.75
+TP53,P04637,TSG,259,D,Y,p.D259Y,,,True,19,-10.3125
+TP53,P04637,TSG,260,S,Y,p.Ser260Tyr,0.0,Likely benign,False,0,-3.6875
+TP53,P04637,TSG,262,G,S,p.Gly262Ser,0.0,Likely benign,False,0,-5.5
+TP53,P04637,TSG,262,G,V,p.G262V,,,True,17,-8.75
+TP53,P04637,TSG,263,N,S,p.Asn263Ser,0.0,Likely benign,False,0,-0.5
+TP53,P04637,TSG,265,L,L,p.L265L,,,True,6,0.0
+TP53,P04637,TSG,265,L,M,p.L265M,,,True,1,-5.25
+TP53,P04637,TSG,265,L,P,p.Leu265Pro,1.0,Pathogenic/Likely pathogenic,True,8,-10.0
+TP53,P04637,TSG,265,L,Q,p.Leu265Gln,1.0,Pathogenic/Likely pathogenic,False,0,-6.9375
+TP53,P04637,TSG,265,L,R,p.L265R,,,True,4,-8.0
+TP53,P04637,TSG,266,G,E,p.Gly266Glu,1.0,Pathogenic/Likely pathogenic,True,35,-6.3125
+TP53,P04637,TSG,266,G,K,p.G266K,,,True,1,-10.0625
+TP53,P04637,TSG,266,G,R,p.Gly266Arg,1.0,Pathogenic,True,40,-8.1875
+TP53,P04637,TSG,266,G,T,p.G266T,,,True,1,-8.0625
+TP53,P04637,TSG,266,G,V,p.G266V,,,True,26,-8.625
+TP53,P04637,TSG,267,R,G,p.Arg267Gly,1.0,Pathogenic,True,3,-7.75
+TP53,P04637,TSG,267,R,L,p.R267L,,,True,5,-7.25
+TP53,P04637,TSG,267,R,P,p.Arg267Pro,1.0,Pathogenic,True,8,-10.75
+TP53,P04637,TSG,267,R,Q,p.R267Q,,,True,4,-3.6875
+TP53,P04637,TSG,267,R,R,p.R267R,,,True,1,0.0
+TP53,P04637,TSG,267,R,W,p.Arg267Trp,1.0,Pathogenic/Likely pathogenic,True,15,-5.9375
+TP53,P04637,TSG,269,S,C,p.Ser269Cys,0.0,Benign,False,0,-0.125
+TP53,P04637,TSG,269,S,I,p.Ser269Ile,1.0,Likely pathogenic,False,0,-5.125
+TP53,P04637,TSG,270,F,C,p.F270C,,,True,4,-6.125
+TP53,P04637,TSG,270,F,I,p.F270I,,,True,4,-5.75
+TP53,P04637,TSG,270,F,L,p.F270L,,,True,8,-3.75
+TP53,P04637,TSG,270,F,S,p.Phe270Ser,1.0,Pathogenic/Likely pathogenic,True,6,-6.875
+TP53,P04637,TSG,270,F,V,p.Phe270Val,1.0,Pathogenic,True,8,-5.625
+TP53,P04637,TSG,271,E,K,p.E271K,,,True,27,-8.0
+TP53,P04637,TSG,271,E,Q,p.E271Q,,,True,7,-6.3125
+TP53,P04637,TSG,271,E,V,p.Glu271Val,1.0,Likely pathogenic,True,5,-8.375
+TP53,P04637,TSG,272,V,A,p.V272A,,,True,1,-2.75
+TP53,P04637,TSG,272,V,E,p.V272E,,,True,3,-9.5625
+TP53,P04637,TSG,272,V,G,p.V272G,,,True,5,-7.1875
+TP53,P04637,TSG,272,V,K,p.V272K,,,True,2,-14.1875
+TP53,P04637,TSG,272,V,L,p.Val272Leu,1.0,Pathogenic,True,20,-4.0
+TP53,P04637,TSG,272,V,M,p.Val272Met,1.0,Pathogenic,True,34,-4.875
+TP53,P04637,TSG,272,V,V,p.V272V,,,True,1,0.0
+TP53,P04637,TSG,273,R,C,p.Arg273Cys,1.0,Pathogenic/Likely pathogenic,True,283,-7.625
+TP53,P04637,TSG,273,R,G,p.Arg273Gly,1.0,Pathogenic/Likely pathogenic,True,2,-8.4375
+TP53,P04637,TSG,273,R,H,p.Arg273His,1.0,Pathogenic,True,251,-7.0
+TP53,P04637,TSG,273,R,L,p.Arg273Leu,1.0,Pathogenic,True,56,-7.6875
+TP53,P04637,TSG,273,R,P,p.Arg273Pro,1.0,Pathogenic/Likely pathogenic,True,5,-10.125
+TP53,P04637,TSG,273,R,S,p.Arg273Ser,1.0,Pathogenic,True,12,-7.875
+TP53,P04637,TSG,274,V,A,p.V274A,,,True,12,-7.125
+TP53,P04637,TSG,274,V,D,p.V274D,,,True,7,-13.125
+TP53,P04637,TSG,274,V,F,p.V274F,,,True,14,-8.3125
+TP53,P04637,TSG,274,V,G,p.V274G,,,True,8,-10.1875
+TP53,P04637,TSG,274,V,I,p.Val274Ile,0.0,Benign,False,0,-2.25
+TP53,P04637,TSG,274,V,L,p.V274L,,,True,5,-6.125
+TP53,P04637,TSG,275,C,F,p.Cys275Phe,1.0,Pathogenic,True,25,-10.4375
+TP53,P04637,TSG,275,C,G,p.C275G,,,True,2,-11.0625
+TP53,P04637,TSG,275,C,R,p.C275R,,,True,7,-11.5
+TP53,P04637,TSG,275,C,S,p.C275S,,,True,6,-9.0
+TP53,P04637,TSG,275,C,W,p.C275W,,,True,3,-11.75
+TP53,P04637,TSG,275,C,Y,p.Cys275Tyr,1.0,Pathogenic/Likely pathogenic,True,24,-10.5
+TP53,P04637,TSG,276,A,G,p.Ala276Gly,1.0,Pathogenic/Likely pathogenic,False,0,-5.75
+TP53,P04637,TSG,277,C,F,p.C277F,,,True,20,-7.6875
+TP53,P04637,TSG,277,C,G,p.Cys277Gly,1.0,Likely pathogenic,True,1,-7.3125
+TP53,P04637,TSG,277,C,W,p.C277W,,,True,1,-9.375
+TP53,P04637,TSG,277,C,Y,p.C277Y,,,True,3,-7.375
+TP53,P04637,TSG,278,P,A,p.P278A,,,True,13,-8.875
+TP53,P04637,TSG,278,P,F,p.P278F,,,True,3,-13.875
+TP53,P04637,TSG,278,P,H,p.P278H,,,True,6,-11.46875
+TP53,P04637,TSG,278,P,L,p.Pro278Leu,1.0,Pathogenic,True,17,-9.15625
+TP53,P04637,TSG,278,P,R,p.P278R,,,True,12,-11.125
+TP53,P04637,TSG,278,P,S,p.Pro278Ser,1.0,Pathogenic/Likely pathogenic,True,37,-9.09375
+TP53,P04637,TSG,278,P,T,p.Pro278Thr,1.0,Pathogenic/Likely pathogenic,True,12,-10.0
+TP53,P04637,TSG,280,R,G,p.R280G,,,True,17,-10.1875
+TP53,P04637,TSG,280,R,I,p.R280I,,,True,12,-12.65625
+TP53,P04637,TSG,280,R,K,p.R280K,,,True,36,-8.25
+TP53,P04637,TSG,280,R,S,p.Arg280Ser,1.0,Pathogenic,True,8,-10.21875
+TP53,P04637,TSG,280,R,T,p.Arg280Thr,1.0,Pathogenic/Likely pathogenic,True,34,-11.75
+TP53,P04637,TSG,281,D,A,p.Asp281Ala,1.0,Pathogenic/Likely pathogenic,True,1,-8.875
+TP53,P04637,TSG,281,D,D,p.D281D,,,True,4,0.0
+TP53,P04637,TSG,281,D,E,p.Asp281Glu,1.0,Pathogenic/Likely pathogenic,True,14,-6.625
+TP53,P04637,TSG,281,D,G,p.Asp281Gly,1.0,Pathogenic,True,4,-8.375
+TP53,P04637,TSG,281,D,H,p.Asp281His,1.0,Pathogenic/Likely pathogenic,True,9,-8.6875
+TP53,P04637,TSG,281,D,N,p.Asp281Asn,1.0,Pathogenic/Likely pathogenic,True,14,-6.5
+TP53,P04637,TSG,281,D,P,p.D281P,,,True,1,-15.0859375
+TP53,P04637,TSG,281,D,V,p.Asp281Val,1.0,Pathogenic/Likely pathogenic,True,9,-9.46875
+TP53,P04637,TSG,281,D,Y,p.Asp281Tyr,1.0,Pathogenic/Likely pathogenic,True,13,-9.15625
+TP53,P04637,TSG,282,R,G,p.Arg282Gly,1.0,Pathogenic,True,9,-8.8125
+TP53,P04637,TSG,282,R,L,p.R282L,,,True,1,-4.625
+TP53,P04637,TSG,282,R,P,p.Arg282Pro,1.0,Pathogenic/Likely pathogenic,True,4,-11.0
+TP53,P04637,TSG,282,R,Q,p.R282Q,,,True,3,-5.3125
+TP53,P04637,TSG,282,R,R,p.R282R,,,True,1,0.0
+TP53,P04637,TSG,282,R,W,p.Arg282Trp,1.0,Pathogenic/Likely pathogenic,True,201,-6.625
+TP53,P04637,TSG,283,R,C,p.Arg283Cys,0.0,Likely benign,False,0,-6.4375
+TP53,P04637,TSG,283,R,P,p.Arg283Pro,1.0,Pathogenic,False,0,-9.5
+TP53,P04637,TSG,284,T,I,p.Thr284Ile,0.0,Likely benign,False,0,-4.375
+TP53,P04637,TSG,285,E,E,p.E285E,,,True,4,0.0
+TP53,P04637,TSG,285,E,K,p.Glu285Lys,1.0,Pathogenic/Likely pathogenic,True,68,-7.8125
+TP53,P04637,TSG,285,E,Q,p.E285Q,,,True,3,-7.0625
+TP53,P04637,TSG,285,E,V,p.Glu285Val,1.0,Pathogenic,True,9,-8.3125
+TP53,P04637,TSG,286,E,A,p.Glu286Ala,1.0,Likely pathogenic,True,2,-8.125
+TP53,P04637,TSG,286,E,G,p.E286G,,,True,6,-8.25
+TP53,P04637,TSG,286,E,K,p.Glu286Lys,1.0,Pathogenic/Likely pathogenic,True,41,-8.625
+TP53,P04637,TSG,286,E,Q,p.E286Q,,,True,7,-7.25
+TP53,P04637,TSG,286,E,V,p.E286V,,,True,3,-8.875
+TP53,P04637,TSG,287,E,G,p.Glu287Gly,0.0,Likely benign,False,0,-4.1875
+TP53,P04637,TSG,289,L,P,p.Leu289Pro,0.0,Likely benign,False,0,-4.9375
+TP53,P04637,TSG,290,R,C,p.Arg290Cys,0.0,Benign,False,0,-3.625
+TP53,P04637,TSG,290,R,H,p.Arg290His,0.0,Benign,False,0,-2.375
+TP53,P04637,TSG,292,K,R,p.Lys292Arg,0.0,Likely benign,False,0,0.125
+TP53,P04637,TSG,293,G,W,p.Gly293Trp,0.0,Likely benign,False,0,-3.124999761581421
+TP53,P04637,TSG,295,P,S,p.Pro295Ser,0.0,Likely benign,False,0,0.0
+TP53,P04637,TSG,296,H,R,p.His296Arg,1.0,Likely pathogenic,False,0,1.1875
+TP53,P04637,TSG,296,H,Y,p.His296Tyr,0.0,Likely benign,False,0,-1.125
+TP53,P04637,TSG,298,E,K,p.Glu298Lys,0.0,Benign,False,0,1.0
+TP53,P04637,TSG,298,E,Q,p.E298Q,,,True,1,1.0
+TP53,P04637,TSG,299,L,V,p.Leu299Val,0.0,Likely benign,False,0,-0.375
+TP53,P04637,TSG,300,P,L,p.Pro300Leu,0.0,Likely benign,False,0,-0.4375
+TP53,P04637,TSG,302,G,A,p.Gly302Ala,0.0,Likely benign,False,0,0.25
+TP53,P04637,TSG,303,S,G,p.Ser303Gly,0.0,Likely benign,False,0,-0.125
+TP53,P04637,TSG,306,R,Q,p.R306Q,,,True,1,-5.5625
+TP53,P04637,TSG,307,A,G,p.Ala307Gly,0.0,Likely benign,False,0,-1.25
+TP53,P04637,TSG,310,N,K,p.Asn310Lys,0.0,Likely benign,False,0,-0.5
+TP53,P04637,TSG,310,N,S,p.Asn310Ser,0.0,Likely benign,False,0,1.6875
+TP53,P04637,TSG,312,T,N,p.Thr312Asn,0.0,Likely benign,False,0,-0.5625
+TP53,P04637,TSG,312,T,S,p.Thr312Ser,0.0,Benign,False,0,1.0625001192092896
+TP53,P04637,TSG,313,S,N,p.Ser313Asn,0.0,Likely benign,False,0,-1.625
+TP53,P04637,TSG,315,S,T,p.Ser315Thr,0.0,Likely benign,False,0,-1.0625
+TP53,P04637,TSG,316,P,T,p.Pro316Thr,0.0,Likely benign,False,0,-1.8750001192092896
+TP53,P04637,TSG,317,Q,K,p.Gln317Lys,0.0,Benign,False,0,-0.625
+TP53,P04637,TSG,318,P,S,p.Pro318Ser,0.0,Benign,False,0,0.125
+TP53,P04637,TSG,319,K,T,p.Lys319Thr,0.0,Likely benign,False,0,-1.9375001192092896
+TP53,P04637,TSG,324,D,E,p.Asp324Glu,0.0,Likely benign,False,0,0.4999999403953552
+TP53,P04637,TSG,324,D,N,p.Asp324Asn,0.0,Benign,False,0,-2.750000238418579
+TP53,P04637,TSG,326,E,D,p.Glu326Asp,0.0,Likely benign,False,0,-1.25
+TP53,P04637,TSG,326,E,V,p.Glu326Val,1.0,Likely pathogenic,False,0,-6.5
+TP53,P04637,TSG,331,Q,H,p.Q331H,,,True,8,-2.25
+TP53,P04637,TSG,332,I,L,p.Ile332Leu,0.0,Likely benign,False,0,-3.375000238418579
+TP53,P04637,TSG,332,I,N,p.Ile332Asn,1.0,Likely pathogenic,False,0,-9.625
+TP53,P04637,TSG,333,R,C,p.Arg333Cys,0.0,Likely benign,False,0,-4.0625
+TP53,P04637,TSG,333,R,H,p.Arg333His,0.0,Benign,False,0,-3.125
+TP53,P04637,TSG,334,G,W,p.Gly334Trp,1.0,Likely pathogenic,False,0,-11.0625
+TP53,P04637,TSG,335,R,C,p.Arg335Cys,0.0,Likely benign,False,0,-6.1875
+TP53,P04637,TSG,335,R,L,p.Arg335Leu,0.0,Likely benign,False,0,-5.1875
+TP53,P04637,TSG,336,E,Q,p.Glu336Gln,0.0,Likely benign,False,0,-2.125
+TP53,P04637,TSG,337,R,C,p.Arg337Cys,1.0,Pathogenic,True,36,-4.375
+TP53,P04637,TSG,337,R,G,p.Arg337Gly,1.0,Likely pathogenic,True,1,-5.5625
+TP53,P04637,TSG,337,R,H,p.R337H,,,True,4,-3.25
+TP53,P04637,TSG,337,R,L,p.Arg337Leu,1.0,Likely pathogenic,True,20,-5.5
+TP53,P04637,TSG,337,R,P,p.Arg337Pro,1.0,Likely pathogenic,True,3,-6.6875
+TP53,P04637,TSG,337,R,S,p.Arg337Ser,1.0,Likely pathogenic,True,4,-4.5
+TP53,P04637,TSG,339,E,Q,p.Glu339Gln,0.0,Likely benign,False,0,-1.8750001192092896
+TP53,P04637,TSG,340,M,I,p.Met340Ile,0.0,Likely benign,False,0,-1.0
+TP53,P04637,TSG,341,F,L,p.Phe341Leu,0.0,Likely benign,False,0,1.125
+TP53,P04637,TSG,341,F,S,p.Phe341Ser,1.0,Likely pathogenic,False,0,-7.125
+TP53,P04637,TSG,342,R,P,p.Arg342Pro,1.0,Pathogenic,True,8,-9.0
+TP53,P04637,TSG,342,R,Q,p.Arg342Gln,0.0,Likely benign,False,0,-2.125
+TP53,P04637,TSG,343,E,D,p.Glu343Asp,0.0,Benign,False,0,-1.9375
+TP53,P04637,TSG,344,L,P,p.Leu344Pro,1.0,Likely pathogenic,False,0,-7.687500476837158
+TP53,P04637,TSG,344,L,R,p.Leu344Arg,1.0,Likely pathogenic,False,0,-6.5625
+TP53,P04637,TSG,347,A,D,p.Ala347Asp,1.0,Pathogenic,False,0,-5.75
+TP53,P04637,TSG,347,A,G,p.Ala347Gly,0.0,Likely benign,False,0,-2.75
+TP53,P04637,TSG,349,E,G,p.Glu349Gly,0.0,Likely benign,False,0,-3.9375
+TP53,P04637,TSG,350,L,R,p.Leu350Arg,0.0,Likely benign,False,0,-3.125
+TP53,P04637,TSG,354,Q,K,p.Gln354Lys,0.0,Benign,False,0,0.125
+TP53,P04637,TSG,354,Q,L,p.Gln354Leu,0.0,Benign,False,0,0.9999998807907104
+TP53,P04637,TSG,354,Q,P,p.Gln354Pro,0.0,Likely benign,False,0,-0.625
+TP53,P04637,TSG,355,A,T,p.Ala355Thr,0.0,Likely benign,False,0,-0.5
+TP53,P04637,TSG,356,G,E,p.Gly356Glu,0.0,Likely benign,False,0,-0.5
+TP53,P04637,TSG,356,G,R,p.Gly356Arg,0.0,Likely benign,False,0,0.375
+TP53,P04637,TSG,360,G,A,p.Gly360Ala,0.0,Benign,False,0,-0.25
+TP53,P04637,TSG,365,H,Y,p.His365Tyr,0.0,Likely benign,False,0,-1.875
+TP53,P04637,TSG,366,S,A,p.Ser366Ala,0.0,Benign,False,0,-1.3749998807907104
+TP53,P04637,TSG,369,L,M,p.Leu369Met,0.0,Likely benign,False,0,-1.250000238418579
+TP53,P04637,TSG,374,G,R,p.Gly374Arg,0.0,Benign,False,0,-1.25
+TP53,P04637,TSG,375,Q,K,p.Gln375Lys,0.0,Likely benign,False,0,0.3125
+TP53,P04637,TSG,378,S,T,p.Ser378Thr,0.0,Likely benign,False,0,-1.25
+TP53,P04637,TSG,379,R,H,p.Arg379His,0.0,Likely benign,False,0,0.375
+TP53,P04637,TSG,379,R,L,p.Arg379Leu,0.0,Likely benign,False,0,0.0
+TP53,P04637,TSG,379,R,S,p.Arg379Ser,0.0,Likely benign,False,0,1.4999998807907104
+TP53,P04637,TSG,384,M,T,p.Met384Thr,0.0,Benign,False,0,1.625
+TP53,P04637,TSG,384,M,V,p.Met384Val,0.0,Likely benign,False,0,1.375
+TP53,P04637,TSG,385,F,L,p.Phe385Leu,0.0,Likely benign,False,0,1.625
+TP53,P04637,TSG,387,T,P,p.Thr387Pro,0.0,Likely benign,False,0,-1.625
+TP53,P04637,TSG,388,E,A,p.Glu388Ala,0.0,Likely benign,False,0,-6.8125
+TP53,P04637,TSG,388,E,D,p.Glu388Asp,0.0,Likely benign,False,0,-3.625
+TP53,P04637,TSG,388,E,Q,p.Glu388Gln,0.0,Likely benign,False,0,-5.9375
+TP53,P04637,TSG,393,D,Y,p.Asp393Tyr,0.0,Likely benign,False,0,-7.875
