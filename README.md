@@ -86,8 +86,22 @@ features (k=64/residue), with reconstruction FVU ≈ 0.16 at the configured laye
   features while TSG variants disrupt more Domain/Disorder features — a directional
   mechanism signal. The gene-held-out oncogene-vs-TSG classifier is unreliable at 5
   genes (degenerate folds); a powered claim needs Phase 4 scale-up.
-- **Next:** Phase 4 — scale to ~50-100 genes for powered held-out-genes prediction
-  and H2 mechanism claims; optionally the 6B classifier comparison vs baselines.
+- **Phase 4 complete (600M, 80-gene panel)** — 6,244 variants across 40 oncogenes +
+  40 TSGs; 5,179 labeled pathogenic/benign. Powered results:
+  - *Prediction* (pathogenic-vs-benign, leave-one-gene-out over 29 test genes):
+    likelihood **0.927**, embedding-delta 0.828, SAE-disruption 0.883,
+    **combined 0.937**. The combined model now *beats* likelihood alone (at 5 genes it
+    hurt) — SAE features add a small but real complementary lift; SAE still doesn't beat
+    likelihood on its own (clean negative holds); SAE > dense embeddings (transfer edge).
+  - *H2 mechanism* (oncogene-vs-TSG from disruption vectors, held-out-gene pooled):
+    **AUROC 0.811** (all variants), 0.734 (pathogenic). The 5-gene degenerate 0.21
+    becomes a clean, leakage-proof 0.81 — mechanism class separates in interpretable
+    feature space for *unseen* genes. **The powered interpretability payoff.**
+- **Net thesis:** prediction is a near-wash vs the likelihood baseline (publishable
+  clean negative), but the interpretable feature view delivers a genuine, powered
+  contribution — oncogene/TSG mechanism separation and a combined-model lift.
+- **Next (optional):** 6B on the 80-gene panel for GPT-5-described mechanism features;
+  write-up.
 
 ```powershell
 .venv\Scripts\python.exe scripts\phase1_curate.py        # build the variant table
