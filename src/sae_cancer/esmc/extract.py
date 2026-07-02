@@ -113,6 +113,23 @@ def sae_layer_index(sae_layer: int) -> int:
 
 
 @torch.no_grad()
+def single_layer_hidden(model: ESMC, sequence: str, index: int) -> torch.Tensor:
+    """Per-residue hidden states at ONE (0-indexed) layer, ``[L, d_model]``.
+
+    Memory-lean vs :func:`hidden_states`: requests only the target layer from the SDK
+    (``ith_hidden_layer``) so we never materialize all 80 layers as float32 — critical
+    for the 6B model, where that spike OOMs the 16 GB card.
+    """
+    protein_tensor = model.encode(ESMProtein(sequence=sequence))
+    out = model.logits(
+        protein_tensor,
+        LogitsConfig(return_hidden_states=True, ith_hidden_layer=index),
+    )
+    assert out.hidden_states is not None, "model returned no hidden states"
+    return out.hidden_states[0, 0].float()  # [1, B=1, L, D] -> [L, D]
+
+
+@torch.no_grad()
 def layer_hidden_state(model: ESMC, sequence: str, sae_layer: int) -> torch.Tensor:
     """Per-residue hidden states for the SAE's (1-indexed) layer, ``[L, d_model]``."""
-    return hidden_states(model, sequence)[sae_layer_index(sae_layer)]
+    return single_layer_hidden(model, sequence, sae_layer_index(sae_layer))

@@ -20,7 +20,7 @@ import torch
 
 from esm.models.esmc import ESMC
 
-from ..esmc.extract import hidden_states, sae_layer_index
+from ..esmc.extract import sae_layer_index, single_layer_hidden
 from ..esmc.sae import SAE
 
 _EPS = 1e-6
@@ -38,7 +38,7 @@ def mutate(sequence: str, position: int, wt_aa: str, mut_aa: str) -> str:
 @torch.no_grad()
 def sae_residue_features(model: ESMC, sae: SAE, sequence: str) -> torch.Tensor:
     """Per-token SAE features ``[L+2, codebook]`` (incl. <cls>/<eos>) at the SAE layer."""
-    hs = hidden_states(model, sequence)[sae_layer_index(sae.layer)]
+    hs = single_layer_hidden(model, sequence, sae_layer_index(sae.layer))
     return sae.encode(hs)
 
 

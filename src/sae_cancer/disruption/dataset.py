@@ -32,16 +32,24 @@ def build_disruption(
     rows: list[dict] = []
     vecs: dict[str, list[np.ndarray]] = {r: [] for r in REPRS}
 
+    import torch
+    cuda = str(model.device).startswith("cuda")
+
     t0 = time.time()
     for gene, g in df.groupby("gene", sort=False):
+        if cuda:
+            torch.cuda.empty_cache()  # reclaim fragmented reserved memory per gene
         wt_feats = sae_residue_features(model, sae, seqs[gene])  # once per gene
-        for _, v in g.iterrows():
+        for i, (_, v) in enumerate(g.iterrows()):
             mut_seq = mutate(seqs[gene], int(v["position"]), v["wt_aa"], v["mut_aa"])
             mut_feats = sae_residue_features(model, sae, mut_seq)
             d = disruption_vectors(wt_feats, mut_feats, int(v["position"]), window)
             for r in REPRS:
                 vecs[r].append(d[r])
             rows.append({**v.to_dict(), **disruption_scalars(d)})
+            del mut_feats
+            if cuda and i % 25 == 0:
+                torch.cuda.empty_cache()
         if verbose:
             print(f"  {gene:5s}: {len(g)} variants  ({time.time()-t0:.1f}s elapsed)")
 
