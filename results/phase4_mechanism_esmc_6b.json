@@ -1,0 +1,18 @@
+{
+  "model": "esmc_6b",
+  "n_genes": 79,
+  "all_variants": {
+    "auroc": 0.1623165009652834,
+    "auprc": 0.35586126023242876,
+    "n_pos": 2513,
+    "n_neg": 3731,
+    "n_genes": 79
+  },
+  "pathogenic_only": {
+    "auroc": 0.3421880285907082,
+    "auprc": 0.4195362728890185,
+    "n_pos": 1238,
+    "n_neg": 1786,
+    "n_genes": 70
+  }
+}
